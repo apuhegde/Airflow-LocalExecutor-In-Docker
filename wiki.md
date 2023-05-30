@@ -125,7 +125,7 @@ This script imports the dataset as an iterator. It establishes a connection to t
 ### data_ingestion_local.py
 This is the dag file used by Airflow for workflow orchestration. There are two tasks specified in the script - wget_task and ingest_task. The wget_task downloads the csv file into the home directory within the container that is running the scheduler. This downloaded file is then passed as an input into the ingest_task. The above ingest_script_local.py script is imported into the data_ingest_local.py dag to be used as a callable python function within the ingest_task. 
 
-Some variables are declared in the beginning of the dag script. These are either environment variables being used within the container and/or environment variables specified in the .env file (explained below). Note: the default value of “PG_HOST” was taken from this address to the postgres database, which is what was used to connect to the postgres db here: (???)
+Some variables are declared in the beginning of the dag script. These are either environment variables being used within the container and/or environment variables specified in the .env file (explained below). Note: I used the default value of "PG_HOST" from this document [https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/4ecddc7ed8264b694136de2a6e84ce6f88401695/cohorts/2022/week_2_data_ingestion/airflow/.env_example#L18](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/4ecddc7ed8264b694136de2a6e84ce6f88401695/cohorts/2022/week_2_data_ingestion/airflow/.env_example#L18) . I'm not entirely sure why this works.
 
 ### requirements.txt
 This file contains the names and versions of all packages used in the above python programs that need to be installed inside the container.
