@@ -1,0 +1,1247 @@
+[2023-05-28 02:06:46,220] {processor.py:163} INFO - Started process (PID=221) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:06:46,224] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:06:46,226] {logging_mixin.py:109} INFO - [2023-05-28 02:06:46,225] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:06:48,055] {logging_mixin.py:109} INFO - [2023-05-28 02:06:48,055] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:06:48,117] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:06:50,261] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/providers_manager.py:517 DeprecationWarning: The provider apache-airflow-providers-postgres uses `hook-class-names` property in provider-info and has no `connection-types` one. The 'hook-class-names' property has been deprecated in favour of 'connection-types' in Airflow 2.2. Use **both** in case you want to have backwards compatibility with Airflow < 2.2
+[2023-05-28 02:06:51,866] {logging_mixin.py:109} INFO - [2023-05-28 02:06:51,866] {providers_manager.py:152} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2023-05-28 02:06:53,419] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/providers_manager.py:517 DeprecationWarning: The provider apache-airflow-providers-postgres uses `hook-class-names` property in provider-info and has no `connection-types` one. The 'hook-class-names' property has been deprecated in favour of 'connection-types' in Airflow 2.2. Use **both** in case you want to have backwards compatibility with Airflow < 2.2
+[2023-05-28 02:06:53,429] {logging_mixin.py:109} INFO - [2023-05-28 02:06:53,429] {providers_manager.py:152} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2023-05-28 02:06:53,489] {logging_mixin.py:109} INFO - [2023-05-28 02:06:53,489] {manager.py:496} INFO - Created Permission View: can read on DAG:LocalIngestionDag
+[2023-05-28 02:06:53,510] {logging_mixin.py:109} INFO - [2023-05-28 02:06:53,509] {manager.py:496} INFO - Created Permission View: can edit on DAG:LocalIngestionDag
+[2023-05-28 02:06:53,512] {logging_mixin.py:109} INFO - [2023-05-28 02:06:53,511] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:06:53,534] {logging_mixin.py:109} INFO - [2023-05-28 02:06:53,533] {dag.py:2408} INFO - Creating ORM DAG for LocalIngestionDag
+[2023-05-28 02:06:53,567] {logging_mixin.py:109} INFO - [2023-05-28 02:06:53,567] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:06:53,596] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 7.382 seconds
+[2023-05-28 02:07:06,222] {processor.py:163} INFO - Started process (PID=221) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:07:06,234] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:07:06,236] {logging_mixin.py:109} INFO - [2023-05-28 02:07:06,236] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:07:08,221] {logging_mixin.py:109} INFO - [2023-05-28 02:07:08,220] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:07:08,280] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:07:08,293] {logging_mixin.py:109} INFO - [2023-05-28 02:07:08,292] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:07:08,490] {logging_mixin.py:109} INFO - [2023-05-28 02:07:08,489] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:07:08,512] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.297 seconds
+[2023-05-28 02:07:23,823] {processor.py:163} INFO - Started process (PID=262) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:07:23,835] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:07:23,837] {logging_mixin.py:109} INFO - [2023-05-28 02:07:23,837] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:07:27,569] {logging_mixin.py:109} INFO - [2023-05-28 02:07:27,568] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:07:27,671] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:07:27,738] {logging_mixin.py:109} INFO - [2023-05-28 02:07:27,736] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:07:27,844] {logging_mixin.py:109} INFO - [2023-05-28 02:07:27,844] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:07:27,887] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 4.071 seconds
+[2023-05-28 02:07:38,694] {processor.py:163} INFO - Started process (PID=258) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:07:38,702] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:07:38,719] {logging_mixin.py:109} INFO - [2023-05-28 02:07:38,719] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:07:44,461] {logging_mixin.py:109} INFO - [2023-05-28 02:07:44,461] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:07:44,611] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:07:44,703] {logging_mixin.py:109} INFO - [2023-05-28 02:07:44,702] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:07:44,861] {logging_mixin.py:109} INFO - [2023-05-28 02:07:44,860] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:07:44,907] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 6.235 seconds
+[2023-05-28 02:07:58,236] {processor.py:163} INFO - Started process (PID=272) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:07:58,241] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:07:58,244] {logging_mixin.py:109} INFO - [2023-05-28 02:07:58,244] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:00,550] {logging_mixin.py:109} INFO - [2023-05-28 02:08:00,549] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:08:00,609] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:00,642] {logging_mixin.py:109} INFO - [2023-05-28 02:08:00,641] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:08:00,691] {logging_mixin.py:109} INFO - [2023-05-28 02:08:00,691] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:08:00,715] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.499 seconds
+[2023-05-28 02:08:15,152] {processor.py:163} INFO - Started process (PID=272) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:15,155] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:08:15,157] {logging_mixin.py:109} INFO - [2023-05-28 02:08:15,157] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:16,899] {logging_mixin.py:109} INFO - [2023-05-28 02:08:16,899] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:08:16,951] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:16,978] {logging_mixin.py:109} INFO - [2023-05-28 02:08:16,977] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:08:17,026] {logging_mixin.py:109} INFO - [2023-05-28 02:08:17,025] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:08:17,044] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.900 seconds
+[2023-05-28 02:08:31,067] {processor.py:163} INFO - Started process (PID=282) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:31,070] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:08:31,073] {logging_mixin.py:109} INFO - [2023-05-28 02:08:31,072] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:32,721] {logging_mixin.py:109} INFO - [2023-05-28 02:08:32,721] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:08:32,764] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:32,790] {logging_mixin.py:109} INFO - [2023-05-28 02:08:32,789] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:08:32,834] {logging_mixin.py:109} INFO - [2023-05-28 02:08:32,834] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:08:32,854] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.793 seconds
+[2023-05-28 02:08:47,754] {processor.py:163} INFO - Started process (PID=282) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:47,757] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:08:47,759] {logging_mixin.py:109} INFO - [2023-05-28 02:08:47,759] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:49,391] {logging_mixin.py:109} INFO - [2023-05-28 02:08:49,391] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:08:49,433] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:08:49,460] {logging_mixin.py:109} INFO - [2023-05-28 02:08:49,459] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:08:49,504] {logging_mixin.py:109} INFO - [2023-05-28 02:08:49,503] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:08:49,522] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.773 seconds
+[2023-05-28 02:09:03,288] {processor.py:163} INFO - Started process (PID=292) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:03,291] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:09:03,293] {logging_mixin.py:109} INFO - [2023-05-28 02:09:03,293] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:04,993] {logging_mixin.py:109} INFO - [2023-05-28 02:09:04,992] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:09:05,041] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:05,074] {logging_mixin.py:109} INFO - [2023-05-28 02:09:05,073] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:09:05,123] {logging_mixin.py:109} INFO - [2023-05-28 02:09:05,123] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:09:05,142] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.860 seconds
+[2023-05-28 02:09:19,880] {processor.py:163} INFO - Started process (PID=292) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:19,884] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:09:19,886] {logging_mixin.py:109} INFO - [2023-05-28 02:09:19,886] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:21,666] {logging_mixin.py:109} INFO - [2023-05-28 02:09:21,666] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:09:21,711] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:21,738] {logging_mixin.py:109} INFO - [2023-05-28 02:09:21,737] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:09:21,783] {logging_mixin.py:109} INFO - [2023-05-28 02:09:21,783] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:09:21,802] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.929 seconds
+[2023-05-28 02:09:35,688] {processor.py:163} INFO - Started process (PID=302) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:35,692] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:09:35,694] {logging_mixin.py:109} INFO - [2023-05-28 02:09:35,694] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:37,424] {logging_mixin.py:109} INFO - [2023-05-28 02:09:37,424] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:09:37,475] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:37,504] {logging_mixin.py:109} INFO - [2023-05-28 02:09:37,503] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:09:37,550] {logging_mixin.py:109} INFO - [2023-05-28 02:09:37,549] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:09:37,568] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.889 seconds
+[2023-05-28 02:09:52,180] {processor.py:163} INFO - Started process (PID=302) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:52,183] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:09:52,185] {logging_mixin.py:109} INFO - [2023-05-28 02:09:52,185] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:53,837] {logging_mixin.py:109} INFO - [2023-05-28 02:09:53,837] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:09:53,885] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:09:53,911] {logging_mixin.py:109} INFO - [2023-05-28 02:09:53,910] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:09:53,954] {logging_mixin.py:109} INFO - [2023-05-28 02:09:53,953] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:09:53,973] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.799 seconds
+[2023-05-28 02:10:08,073] {processor.py:163} INFO - Started process (PID=312) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:08,077] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:10:08,080] {logging_mixin.py:109} INFO - [2023-05-28 02:10:08,080] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:09,975] {logging_mixin.py:109} INFO - [2023-05-28 02:10:09,974] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:10:10,026] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:10,058] {logging_mixin.py:109} INFO - [2023-05-28 02:10:10,057] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:10:10,110] {logging_mixin.py:109} INFO - [2023-05-28 02:10:10,110] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:10:10,133] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.068 seconds
+[2023-05-28 02:10:24,168] {processor.py:163} INFO - Started process (PID=312) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:24,173] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:10:24,176] {logging_mixin.py:109} INFO - [2023-05-28 02:10:24,176] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:25,917] {logging_mixin.py:109} INFO - [2023-05-28 02:10:25,917] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:10:25,958] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:25,986] {logging_mixin.py:109} INFO - [2023-05-28 02:10:25,985] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:10:26,032] {logging_mixin.py:109} INFO - [2023-05-28 02:10:26,032] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:10:26,050] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.895 seconds
+[2023-05-28 02:10:40,708] {processor.py:163} INFO - Started process (PID=322) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:40,713] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:10:40,715] {logging_mixin.py:109} INFO - [2023-05-28 02:10:40,715] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:42,447] {logging_mixin.py:109} INFO - [2023-05-28 02:10:42,447] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:10:42,491] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:42,517] {logging_mixin.py:109} INFO - [2023-05-28 02:10:42,516] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:10:42,561] {logging_mixin.py:109} INFO - [2023-05-28 02:10:42,561] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:10:42,581] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.882 seconds
+[2023-05-28 02:10:56,552] {processor.py:163} INFO - Started process (PID=322) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:56,555] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:10:56,557] {logging_mixin.py:109} INFO - [2023-05-28 02:10:56,557] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:58,286] {logging_mixin.py:109} INFO - [2023-05-28 02:10:58,286] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:10:58,331] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:10:58,358] {logging_mixin.py:109} INFO - [2023-05-28 02:10:58,357] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:10:58,402] {logging_mixin.py:109} INFO - [2023-05-28 02:10:58,401] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:10:58,419] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.874 seconds
+[2023-05-28 02:11:13,086] {processor.py:163} INFO - Started process (PID=332) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:11:13,089] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:11:13,092] {logging_mixin.py:109} INFO - [2023-05-28 02:11:13,092] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:11:14,934] {logging_mixin.py:109} INFO - [2023-05-28 02:11:14,934] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:11:14,984] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:11:15,015] {logging_mixin.py:109} INFO - [2023-05-28 02:11:15,014] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:11:15,061] {logging_mixin.py:109} INFO - [2023-05-28 02:11:15,061] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:11:15,082] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.002 seconds
+[2023-05-28 02:11:29,140] {processor.py:163} INFO - Started process (PID=332) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:11:29,144] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:11:29,146] {logging_mixin.py:109} INFO - [2023-05-28 02:11:29,145] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:11:30,879] {logging_mixin.py:109} INFO - [2023-05-28 02:11:30,879] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:11:30,923] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:11:30,950] {logging_mixin.py:109} INFO - [2023-05-28 02:11:30,949] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:11:30,992] {logging_mixin.py:109} INFO - [2023-05-28 02:11:30,992] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:11:31,011] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.876 seconds
+[2023-05-28 02:11:45,718] {processor.py:163} INFO - Started process (PID=342) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:11:45,722] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:11:45,724] {logging_mixin.py:109} INFO - [2023-05-28 02:11:45,724] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:11:47,506] {logging_mixin.py:109} INFO - [2023-05-28 02:11:47,505] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:11:47,548] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:11:47,575] {logging_mixin.py:109} INFO - [2023-05-28 02:11:47,574] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:11:47,620] {logging_mixin.py:109} INFO - [2023-05-28 02:11:47,619] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:11:47,639] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.935 seconds
+[2023-05-28 02:12:01,623] {processor.py:163} INFO - Started process (PID=342) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:01,626] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:12:01,628] {logging_mixin.py:109} INFO - [2023-05-28 02:12:01,628] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:03,303] {logging_mixin.py:109} INFO - [2023-05-28 02:12:03,303] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:12:03,352] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:03,381] {logging_mixin.py:109} INFO - [2023-05-28 02:12:03,380] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:12:03,429] {logging_mixin.py:109} INFO - [2023-05-28 02:12:03,429] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:12:03,450] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.833 seconds
+[2023-05-28 02:12:18,240] {processor.py:163} INFO - Started process (PID=352) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:18,244] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:12:18,246] {logging_mixin.py:109} INFO - [2023-05-28 02:12:18,246] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:19,888] {logging_mixin.py:109} INFO - [2023-05-28 02:12:19,887] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:12:19,932] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:19,959] {logging_mixin.py:109} INFO - [2023-05-28 02:12:19,959] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:12:20,004] {logging_mixin.py:109} INFO - [2023-05-28 02:12:20,004] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:12:20,024] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.792 seconds
+[2023-05-28 02:12:34,150] {processor.py:163} INFO - Started process (PID=352) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:34,153] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:12:34,155] {logging_mixin.py:109} INFO - [2023-05-28 02:12:34,154] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:35,846] {logging_mixin.py:109} INFO - [2023-05-28 02:12:35,845] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:12:35,892] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:35,919] {logging_mixin.py:109} INFO - [2023-05-28 02:12:35,918] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:12:35,961] {logging_mixin.py:109} INFO - [2023-05-28 02:12:35,961] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:12:35,981] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.836 seconds
+[2023-05-28 02:12:50,472] {processor.py:163} INFO - Started process (PID=362) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:50,477] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:12:50,479] {logging_mixin.py:109} INFO - [2023-05-28 02:12:50,479] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:52,203] {logging_mixin.py:109} INFO - [2023-05-28 02:12:52,203] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:12:52,245] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:12:52,274] {logging_mixin.py:109} INFO - [2023-05-28 02:12:52,273] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:12:52,319] {logging_mixin.py:109} INFO - [2023-05-28 02:12:52,318] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:12:52,338] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.877 seconds
+[2023-05-28 02:13:06,691] {processor.py:163} INFO - Started process (PID=362) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:06,697] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:13:06,700] {logging_mixin.py:109} INFO - [2023-05-28 02:13:06,699] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:08,329] {logging_mixin.py:109} INFO - [2023-05-28 02:13:08,328] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:13:08,373] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:08,404] {logging_mixin.py:109} INFO - [2023-05-28 02:13:08,403] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:13:08,457] {logging_mixin.py:109} INFO - [2023-05-28 02:13:08,456] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:13:08,476] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.795 seconds
+[2023-05-28 02:13:22,773] {processor.py:163} INFO - Started process (PID=372) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:22,777] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:13:22,779] {logging_mixin.py:109} INFO - [2023-05-28 02:13:22,778] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:24,456] {logging_mixin.py:109} INFO - [2023-05-28 02:13:24,455] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:13:24,502] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:24,528] {logging_mixin.py:109} INFO - [2023-05-28 02:13:24,528] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:13:24,572] {logging_mixin.py:109} INFO - [2023-05-28 02:13:24,572] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:13:24,589] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.822 seconds
+[2023-05-28 02:13:38,834] {processor.py:163} INFO - Started process (PID=372) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:38,840] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:13:38,842] {logging_mixin.py:109} INFO - [2023-05-28 02:13:38,842] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:40,487] {logging_mixin.py:109} INFO - [2023-05-28 02:13:40,487] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:13:40,528] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:40,555] {logging_mixin.py:109} INFO - [2023-05-28 02:13:40,554] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:13:40,598] {logging_mixin.py:109} INFO - [2023-05-28 02:13:40,598] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:13:40,617] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.794 seconds
+[2023-05-28 02:13:54,937] {processor.py:163} INFO - Started process (PID=382) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:54,940] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:13:54,942] {logging_mixin.py:109} INFO - [2023-05-28 02:13:54,942] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:56,602] {logging_mixin.py:109} INFO - [2023-05-28 02:13:56,602] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:13:56,646] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:13:56,674] {logging_mixin.py:109} INFO - [2023-05-28 02:13:56,673] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:13:56,718] {logging_mixin.py:109} INFO - [2023-05-28 02:13:56,717] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:13:56,735] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.806 seconds
+[2023-05-28 02:14:10,747] {processor.py:163} INFO - Started process (PID=382) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:14:10,749] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:14:10,751] {logging_mixin.py:109} INFO - [2023-05-28 02:14:10,751] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:14:12,370] {logging_mixin.py:109} INFO - [2023-05-28 02:14:12,369] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:14:12,412] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:14:12,438] {logging_mixin.py:109} INFO - [2023-05-28 02:14:12,437] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:14:12,483] {logging_mixin.py:109} INFO - [2023-05-28 02:14:12,482] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:14:12,501] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.762 seconds
+[2023-05-28 02:14:27,190] {processor.py:163} INFO - Started process (PID=392) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:14:27,193] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:14:27,195] {logging_mixin.py:109} INFO - [2023-05-28 02:14:27,195] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:14:28,867] {logging_mixin.py:109} INFO - [2023-05-28 02:14:28,867] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:14:28,908] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:14:28,934] {logging_mixin.py:109} INFO - [2023-05-28 02:14:28,933] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:14:28,977] {logging_mixin.py:109} INFO - [2023-05-28 02:14:28,976] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:14:28,994] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.812 seconds
+[2023-05-28 02:14:42,915] {processor.py:163} INFO - Started process (PID=392) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:14:42,918] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:14:42,920] {logging_mixin.py:109} INFO - [2023-05-28 02:14:42,919] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:14:44,621] {logging_mixin.py:109} INFO - [2023-05-28 02:14:44,620] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:14:44,662] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:14:44,689] {logging_mixin.py:109} INFO - [2023-05-28 02:14:44,688] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:14:44,733] {logging_mixin.py:109} INFO - [2023-05-28 02:14:44,732] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:14:44,751] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.842 seconds
+[2023-05-28 02:14:59,523] {processor.py:163} INFO - Started process (PID=402) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:14:59,528] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:14:59,530] {logging_mixin.py:109} INFO - [2023-05-28 02:14:59,530] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:01,162] {logging_mixin.py:109} INFO - [2023-05-28 02:15:01,161] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:15:01,204] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:01,234] {logging_mixin.py:109} INFO - [2023-05-28 02:15:01,233] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:15:01,280] {logging_mixin.py:109} INFO - [2023-05-28 02:15:01,280] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:15:01,298] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.786 seconds
+[2023-05-28 02:15:15,185] {processor.py:163} INFO - Started process (PID=402) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:15,189] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:15:15,192] {logging_mixin.py:109} INFO - [2023-05-28 02:15:15,192] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:16,829] {logging_mixin.py:109} INFO - [2023-05-28 02:15:16,829] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:15:16,871] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:16,897] {logging_mixin.py:109} INFO - [2023-05-28 02:15:16,896] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:15:16,941] {logging_mixin.py:109} INFO - [2023-05-28 02:15:16,941] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:15:16,959] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.784 seconds
+[2023-05-28 02:15:31,420] {processor.py:163} INFO - Started process (PID=412) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:31,424] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:15:31,427] {logging_mixin.py:109} INFO - [2023-05-28 02:15:31,427] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:33,026] {logging_mixin.py:109} INFO - [2023-05-28 02:15:33,025] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:15:33,068] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:33,097] {logging_mixin.py:109} INFO - [2023-05-28 02:15:33,096] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:15:33,140] {logging_mixin.py:109} INFO - [2023-05-28 02:15:33,140] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:15:33,159] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.750 seconds
+[2023-05-28 02:15:47,506] {processor.py:163} INFO - Started process (PID=412) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:47,511] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:15:47,513] {logging_mixin.py:109} INFO - [2023-05-28 02:15:47,513] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:49,168] {logging_mixin.py:109} INFO - [2023-05-28 02:15:49,168] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:15:49,213] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:15:49,240] {logging_mixin.py:109} INFO - [2023-05-28 02:15:49,239] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:15:49,290] {logging_mixin.py:109} INFO - [2023-05-28 02:15:49,289] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:15:49,309] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.814 seconds
+[2023-05-28 02:16:03,579] {processor.py:163} INFO - Started process (PID=422) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:03,584] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:16:03,586] {logging_mixin.py:109} INFO - [2023-05-28 02:16:03,586] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:05,469] {logging_mixin.py:109} INFO - [2023-05-28 02:16:05,468] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:16:05,518] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:05,549] {logging_mixin.py:109} INFO - [2023-05-28 02:16:05,547] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:16:05,596] {logging_mixin.py:109} INFO - [2023-05-28 02:16:05,596] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:16:05,615] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.048 seconds
+[2023-05-28 02:16:19,720] {processor.py:163} INFO - Started process (PID=422) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:19,724] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:16:19,726] {logging_mixin.py:109} INFO - [2023-05-28 02:16:19,726] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:21,662] {logging_mixin.py:109} INFO - [2023-05-28 02:16:21,661] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:16:21,708] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:21,735] {logging_mixin.py:109} INFO - [2023-05-28 02:16:21,734] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:16:21,780] {logging_mixin.py:109} INFO - [2023-05-28 02:16:21,780] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:16:21,798] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.085 seconds
+[2023-05-28 02:16:36,078] {processor.py:163} INFO - Started process (PID=432) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:36,082] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:16:36,084] {logging_mixin.py:109} INFO - [2023-05-28 02:16:36,084] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:37,880] {logging_mixin.py:109} INFO - [2023-05-28 02:16:37,880] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:16:37,928] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:37,954] {logging_mixin.py:109} INFO - [2023-05-28 02:16:37,953] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:16:37,998] {logging_mixin.py:109} INFO - [2023-05-28 02:16:37,997] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:16:38,020] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.949 seconds
+[2023-05-28 02:16:52,273] {processor.py:163} INFO - Started process (PID=432) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:52,277] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:16:52,279] {logging_mixin.py:109} INFO - [2023-05-28 02:16:52,279] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:54,080] {logging_mixin.py:109} INFO - [2023-05-28 02:16:54,080] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:16:54,133] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:16:54,162] {logging_mixin.py:109} INFO - [2023-05-28 02:16:54,160] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:16:54,214] {logging_mixin.py:109} INFO - [2023-05-28 02:16:54,213] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:16:54,239] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.973 seconds
+[2023-05-28 02:17:08,543] {processor.py:163} INFO - Started process (PID=442) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:08,547] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:17:08,550] {logging_mixin.py:109} INFO - [2023-05-28 02:17:08,549] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:10,351] {logging_mixin.py:109} INFO - [2023-05-28 02:17:10,351] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:17:10,400] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:10,430] {logging_mixin.py:109} INFO - [2023-05-28 02:17:10,429] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:17:10,482] {logging_mixin.py:109} INFO - [2023-05-28 02:17:10,481] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:17:10,506] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.970 seconds
+[2023-05-28 02:17:24,731] {processor.py:163} INFO - Started process (PID=442) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:24,735] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:17:24,738] {logging_mixin.py:109} INFO - [2023-05-28 02:17:24,737] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:26,483] {logging_mixin.py:109} INFO - [2023-05-28 02:17:26,483] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:17:26,528] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:26,556] {logging_mixin.py:109} INFO - [2023-05-28 02:17:26,555] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:17:26,603] {logging_mixin.py:109} INFO - [2023-05-28 02:17:26,603] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:17:26,626] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.904 seconds
+[2023-05-28 02:17:40,982] {processor.py:163} INFO - Started process (PID=452) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:40,986] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:17:40,988] {logging_mixin.py:109} INFO - [2023-05-28 02:17:40,988] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:42,861] {logging_mixin.py:109} INFO - [2023-05-28 02:17:42,861] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:17:42,921] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:42,949] {logging_mixin.py:109} INFO - [2023-05-28 02:17:42,948] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:17:42,994] {logging_mixin.py:109} INFO - [2023-05-28 02:17:42,993] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:17:43,014] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.041 seconds
+[2023-05-28 02:17:57,243] {processor.py:163} INFO - Started process (PID=452) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:57,247] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:17:57,250] {logging_mixin.py:109} INFO - [2023-05-28 02:17:57,249] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:59,020] {logging_mixin.py:109} INFO - [2023-05-28 02:17:59,019] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:17:59,066] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:17:59,101] {logging_mixin.py:109} INFO - [2023-05-28 02:17:59,100] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:17:59,151] {logging_mixin.py:109} INFO - [2023-05-28 02:17:59,150] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:17:59,172] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.936 seconds
+[2023-05-28 02:18:13,467] {processor.py:163} INFO - Started process (PID=462) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:18:13,470] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:18:13,473] {logging_mixin.py:109} INFO - [2023-05-28 02:18:13,472] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:18:15,139] {logging_mixin.py:109} INFO - [2023-05-28 02:18:15,139] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:18:15,181] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:18:15,207] {logging_mixin.py:109} INFO - [2023-05-28 02:18:15,206] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:18:15,253] {logging_mixin.py:109} INFO - [2023-05-28 02:18:15,253] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:18:15,272] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.812 seconds
+[2023-05-28 02:18:29,720] {processor.py:163} INFO - Started process (PID=462) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:18:29,724] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:18:29,726] {logging_mixin.py:109} INFO - [2023-05-28 02:18:29,726] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:18:31,862] {logging_mixin.py:109} INFO - [2023-05-28 02:18:31,862] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:18:31,914] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:18:31,944] {logging_mixin.py:109} INFO - [2023-05-28 02:18:31,943] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:18:31,992] {logging_mixin.py:109} INFO - [2023-05-28 02:18:31,992] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:18:32,012] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.298 seconds
+[2023-05-28 02:18:45,702] {processor.py:163} INFO - Started process (PID=472) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:18:45,705] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:18:45,707] {logging_mixin.py:109} INFO - [2023-05-28 02:18:45,707] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:18:47,476] {logging_mixin.py:109} INFO - [2023-05-28 02:18:47,475] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:18:47,525] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:18:47,553] {logging_mixin.py:109} INFO - [2023-05-28 02:18:47,552] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:18:47,601] {logging_mixin.py:109} INFO - [2023-05-28 02:18:47,601] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:18:47,620] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.925 seconds
+[2023-05-28 02:19:02,535] {processor.py:163} INFO - Started process (PID=472) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:02,539] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:19:02,541] {logging_mixin.py:109} INFO - [2023-05-28 02:19:02,541] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:04,342] {logging_mixin.py:109} INFO - [2023-05-28 02:19:04,341] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:19:04,392] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:04,424] {logging_mixin.py:109} INFO - [2023-05-28 02:19:04,423] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:19:04,472] {logging_mixin.py:109} INFO - [2023-05-28 02:19:04,472] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:19:04,492] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.964 seconds
+[2023-05-28 02:19:18,130] {processor.py:163} INFO - Started process (PID=482) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:18,135] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:19:18,138] {logging_mixin.py:109} INFO - [2023-05-28 02:19:18,137] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:19,924] {logging_mixin.py:109} INFO - [2023-05-28 02:19:19,924] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:19:19,977] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:20,014] {logging_mixin.py:109} INFO - [2023-05-28 02:19:20,013] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:19:20,067] {logging_mixin.py:109} INFO - [2023-05-28 02:19:20,067] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:19:20,089] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.968 seconds
+[2023-05-28 02:19:35,009] {processor.py:163} INFO - Started process (PID=482) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:35,013] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:19:35,015] {logging_mixin.py:109} INFO - [2023-05-28 02:19:35,014] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:36,760] {logging_mixin.py:109} INFO - [2023-05-28 02:19:36,759] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:19:36,806] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:36,835] {logging_mixin.py:109} INFO - [2023-05-28 02:19:36,833] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:19:36,878] {logging_mixin.py:109} INFO - [2023-05-28 02:19:36,878] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:19:36,896] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.895 seconds
+[2023-05-28 02:19:50,563] {processor.py:163} INFO - Started process (PID=492) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:50,566] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:19:50,568] {logging_mixin.py:109} INFO - [2023-05-28 02:19:50,568] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:52,416] {logging_mixin.py:109} INFO - [2023-05-28 02:19:52,415] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:19:52,468] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:19:52,500] {logging_mixin.py:109} INFO - [2023-05-28 02:19:52,498] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:19:52,549] {logging_mixin.py:109} INFO - [2023-05-28 02:19:52,549] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:19:52,567] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.013 seconds
+[2023-05-28 02:20:07,586] {processor.py:163} INFO - Started process (PID=492) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:07,591] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:20:07,593] {logging_mixin.py:109} INFO - [2023-05-28 02:20:07,592] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:09,219] {logging_mixin.py:109} INFO - [2023-05-28 02:20:09,218] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:20:09,267] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:09,297] {logging_mixin.py:109} INFO - [2023-05-28 02:20:09,296] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:20:09,346] {logging_mixin.py:109} INFO - [2023-05-28 02:20:09,345] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:20:09,365] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.786 seconds
+[2023-05-28 02:20:23,023] {processor.py:163} INFO - Started process (PID=502) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:23,027] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:20:23,029] {logging_mixin.py:109} INFO - [2023-05-28 02:20:23,029] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:24,930] {logging_mixin.py:109} INFO - [2023-05-28 02:20:24,930] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:20:24,979] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:25,010] {logging_mixin.py:109} INFO - [2023-05-28 02:20:25,008] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:20:25,057] {logging_mixin.py:109} INFO - [2023-05-28 02:20:25,056] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-04-02 06:00:00+00:00
+[2023-05-28 02:20:25,075] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.061 seconds
+[2023-05-28 02:20:39,719] {processor.py:163} INFO - Started process (PID=518) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:39,725] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:20:39,727] {logging_mixin.py:109} INFO - [2023-05-28 02:20:39,727] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:41,460] {logging_mixin.py:109} INFO - [2023-05-28 02:20:41,460] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:20:41,501] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:41,530] {logging_mixin.py:109} INFO - [2023-05-28 02:20:41,529] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:20:41,574] {logging_mixin.py:109} INFO - [2023-05-28 02:20:41,574] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:20:41,594] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.888 seconds
+[2023-05-28 02:20:55,375] {processor.py:163} INFO - Started process (PID=544) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:55,380] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:20:55,384] {logging_mixin.py:109} INFO - [2023-05-28 02:20:55,383] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:57,404] {logging_mixin.py:109} INFO - [2023-05-28 02:20:57,403] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:20:57,460] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:20:57,494] {logging_mixin.py:109} INFO - [2023-05-28 02:20:57,493] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:20:57,546] {logging_mixin.py:109} INFO - [2023-05-28 02:20:57,545] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:20:57,571] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.205 seconds
+[2023-05-28 02:21:12,154] {processor.py:163} INFO - Started process (PID=528) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:21:12,159] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:21:12,161] {logging_mixin.py:109} INFO - [2023-05-28 02:21:12,161] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:21:13,867] {logging_mixin.py:109} INFO - [2023-05-28 02:21:13,866] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:21:13,912] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:21:13,938] {logging_mixin.py:109} INFO - [2023-05-28 02:21:13,937] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:21:13,980] {logging_mixin.py:109} INFO - [2023-05-28 02:21:13,979] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:21:13,999] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.852 seconds
+[2023-05-28 02:21:27,898] {processor.py:163} INFO - Started process (PID=554) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:21:27,902] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:21:27,905] {logging_mixin.py:109} INFO - [2023-05-28 02:21:27,905] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:21:30,144] {logging_mixin.py:109} INFO - [2023-05-28 02:21:30,144] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:21:30,206] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:21:30,241] {logging_mixin.py:109} INFO - [2023-05-28 02:21:30,240] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:21:30,296] {logging_mixin.py:109} INFO - [2023-05-28 02:21:30,295] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:21:30,319] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.431 seconds
+[2023-05-28 02:21:44,358] {processor.py:163} INFO - Started process (PID=538) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:21:44,362] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:21:44,364] {logging_mixin.py:109} INFO - [2023-05-28 02:21:44,364] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:21:46,135] {logging_mixin.py:109} INFO - [2023-05-28 02:21:46,134] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:21:46,182] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:21:46,209] {logging_mixin.py:109} INFO - [2023-05-28 02:21:46,208] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:21:46,251] {logging_mixin.py:109} INFO - [2023-05-28 02:21:46,250] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:21:46,272] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.921 seconds
+[2023-05-28 02:22:00,583] {processor.py:163} INFO - Started process (PID=564) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:00,590] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:22:00,593] {logging_mixin.py:109} INFO - [2023-05-28 02:22:00,593] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:02,765] {logging_mixin.py:109} INFO - [2023-05-28 02:22:02,764] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:22:02,824] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:02,855] {logging_mixin.py:109} INFO - [2023-05-28 02:22:02,854] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:22:02,906] {logging_mixin.py:109} INFO - [2023-05-28 02:22:02,906] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:22:02,930] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.360 seconds
+[2023-05-28 02:22:16,879] {processor.py:163} INFO - Started process (PID=548) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:16,882] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:22:16,884] {logging_mixin.py:109} INFO - [2023-05-28 02:22:16,884] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:18,729] {logging_mixin.py:109} INFO - [2023-05-28 02:22:18,729] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:22:18,774] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:18,801] {logging_mixin.py:109} INFO - [2023-05-28 02:22:18,800] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:22:18,846] {logging_mixin.py:109} INFO - [2023-05-28 02:22:18,846] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:22:18,867] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.996 seconds
+[2023-05-28 02:22:33,244] {processor.py:163} INFO - Started process (PID=574) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:33,249] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:22:33,252] {logging_mixin.py:109} INFO - [2023-05-28 02:22:33,251] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:35,185] {logging_mixin.py:109} INFO - [2023-05-28 02:22:35,184] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:22:35,234] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:35,261] {logging_mixin.py:109} INFO - [2023-05-28 02:22:35,260] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:22:35,306] {logging_mixin.py:109} INFO - [2023-05-28 02:22:35,306] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:22:35,327] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.093 seconds
+[2023-05-28 02:22:49,464] {processor.py:163} INFO - Started process (PID=558) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:49,468] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:22:49,471] {logging_mixin.py:109} INFO - [2023-05-28 02:22:49,471] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:51,188] {logging_mixin.py:109} INFO - [2023-05-28 02:22:51,187] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:22:51,235] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:22:51,263] {logging_mixin.py:109} INFO - [2023-05-28 02:22:51,262] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:22:51,311] {logging_mixin.py:109} INFO - [2023-05-28 02:22:51,310] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:22:51,331] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.874 seconds
+[2023-05-28 02:23:05,951] {processor.py:163} INFO - Started process (PID=584) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:05,954] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:23:05,956] {logging_mixin.py:109} INFO - [2023-05-28 02:23:05,955] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:07,596] {logging_mixin.py:109} INFO - [2023-05-28 02:23:07,595] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:23:07,641] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:07,668] {logging_mixin.py:109} INFO - [2023-05-28 02:23:07,667] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:23:07,710] {logging_mixin.py:109} INFO - [2023-05-28 02:23:07,709] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:23:07,727] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.783 seconds
+[2023-05-28 02:23:21,863] {processor.py:163} INFO - Started process (PID=568) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:21,867] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:23:21,870] {logging_mixin.py:109} INFO - [2023-05-28 02:23:21,870] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:23,614] {logging_mixin.py:109} INFO - [2023-05-28 02:23:23,613] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:23:23,662] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:23,695] {logging_mixin.py:109} INFO - [2023-05-28 02:23:23,694] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:23:23,744] {logging_mixin.py:109} INFO - [2023-05-28 02:23:23,743] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:23:23,762] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.908 seconds
+[2023-05-28 02:23:38,195] {processor.py:163} INFO - Started process (PID=594) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:38,201] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:23:38,204] {logging_mixin.py:109} INFO - [2023-05-28 02:23:38,203] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:39,806] {logging_mixin.py:109} INFO - [2023-05-28 02:23:39,805] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:23:39,847] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:39,872] {logging_mixin.py:109} INFO - [2023-05-28 02:23:39,871] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:23:39,913] {logging_mixin.py:109} INFO - [2023-05-28 02:23:39,913] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:23:39,930] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.747 seconds
+[2023-05-28 02:23:54,379] {processor.py:163} INFO - Started process (PID=591) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:54,383] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:23:54,385] {logging_mixin.py:109} INFO - [2023-05-28 02:23:54,384] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:56,270] {logging_mixin.py:109} INFO - [2023-05-28 02:23:56,270] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:23:56,327] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:23:56,358] {logging_mixin.py:109} INFO - [2023-05-28 02:23:56,357] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:23:56,406] {logging_mixin.py:109} INFO - [2023-05-28 02:23:56,405] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:23:56,427] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.054 seconds
+[2023-05-28 02:24:10,332] {processor.py:163} INFO - Started process (PID=604) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:24:10,336] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:24:10,338] {logging_mixin.py:109} INFO - [2023-05-28 02:24:10,337] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:24:12,175] {logging_mixin.py:109} INFO - [2023-05-28 02:24:12,174] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:24:12,231] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:24:12,263] {logging_mixin.py:109} INFO - [2023-05-28 02:24:12,262] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:24:12,315] {logging_mixin.py:109} INFO - [2023-05-28 02:24:12,314] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:24:12,338] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.014 seconds
+[2023-05-28 02:24:26,746] {processor.py:163} INFO - Started process (PID=601) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:24:26,750] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:24:26,753] {logging_mixin.py:109} INFO - [2023-05-28 02:24:26,752] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:24:28,735] {logging_mixin.py:109} INFO - [2023-05-28 02:24:28,735] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:24:28,786] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:24:28,817] {logging_mixin.py:109} INFO - [2023-05-28 02:24:28,816] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:24:28,866] {logging_mixin.py:109} INFO - [2023-05-28 02:24:28,865] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:24:28,890] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.151 seconds
+[2023-05-28 02:24:42,895] {processor.py:163} INFO - Started process (PID=614) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:24:42,899] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:24:42,902] {logging_mixin.py:109} INFO - [2023-05-28 02:24:42,901] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:24:44,584] {logging_mixin.py:109} INFO - [2023-05-28 02:24:44,584] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:24:44,626] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:24:44,652] {logging_mixin.py:109} INFO - [2023-05-28 02:24:44,651] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:24:44,694] {logging_mixin.py:109} INFO - [2023-05-28 02:24:44,693] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:24:44,714] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.827 seconds
+[2023-05-28 02:24:59,151] {processor.py:163} INFO - Started process (PID=611) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:24:59,154] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:24:59,156] {logging_mixin.py:109} INFO - [2023-05-28 02:24:59,155] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:00,835] {logging_mixin.py:109} INFO - [2023-05-28 02:25:00,835] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:25:00,879] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:00,906] {logging_mixin.py:109} INFO - [2023-05-28 02:25:00,905] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:25:00,948] {logging_mixin.py:109} INFO - [2023-05-28 02:25:00,948] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:25:00,966] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.822 seconds
+[2023-05-28 02:25:15,221] {processor.py:163} INFO - Started process (PID=624) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:15,224] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:25:15,225] {logging_mixin.py:109} INFO - [2023-05-28 02:25:15,225] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:16,887] {logging_mixin.py:109} INFO - [2023-05-28 02:25:16,886] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:25:16,930] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:16,957] {logging_mixin.py:109} INFO - [2023-05-28 02:25:16,956] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:25:16,998] {logging_mixin.py:109} INFO - [2023-05-28 02:25:16,997] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:25:17,015] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.800 seconds
+[2023-05-28 02:25:31,337] {processor.py:163} INFO - Started process (PID=621) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:31,341] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:25:31,343] {logging_mixin.py:109} INFO - [2023-05-28 02:25:31,343] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:32,965] {logging_mixin.py:109} INFO - [2023-05-28 02:25:32,964] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:25:33,008] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:33,033] {logging_mixin.py:109} INFO - [2023-05-28 02:25:33,032] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:25:33,076] {logging_mixin.py:109} INFO - [2023-05-28 02:25:33,076] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:25:33,094] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.763 seconds
+[2023-05-28 02:25:47,499] {processor.py:163} INFO - Started process (PID=634) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:47,503] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:25:47,505] {logging_mixin.py:109} INFO - [2023-05-28 02:25:47,505] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:49,223] {logging_mixin.py:109} INFO - [2023-05-28 02:25:49,223] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:25:49,268] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:25:49,296] {logging_mixin.py:109} INFO - [2023-05-28 02:25:49,295] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:25:49,339] {logging_mixin.py:109} INFO - [2023-05-28 02:25:49,339] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:25:49,358] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.866 seconds
+[2023-05-28 02:26:03,515] {processor.py:163} INFO - Started process (PID=631) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:03,519] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:26:03,521] {logging_mixin.py:109} INFO - [2023-05-28 02:26:03,521] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:05,230] {logging_mixin.py:109} INFO - [2023-05-28 02:26:05,230] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:26:05,275] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:05,301] {logging_mixin.py:109} INFO - [2023-05-28 02:26:05,300] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:26:05,346] {logging_mixin.py:109} INFO - [2023-05-28 02:26:05,345] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:26:05,365] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.858 seconds
+[2023-05-28 02:26:19,776] {processor.py:163} INFO - Started process (PID=644) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:19,781] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:26:19,784] {logging_mixin.py:109} INFO - [2023-05-28 02:26:19,784] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:21,446] {logging_mixin.py:109} INFO - [2023-05-28 02:26:21,446] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:26:21,488] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:21,516] {logging_mixin.py:109} INFO - [2023-05-28 02:26:21,515] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:26:21,565] {logging_mixin.py:109} INFO - [2023-05-28 02:26:21,564] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:26:21,585] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.821 seconds
+[2023-05-28 02:26:35,660] {processor.py:163} INFO - Started process (PID=641) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:35,664] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:26:35,666] {logging_mixin.py:109} INFO - [2023-05-28 02:26:35,666] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:37,362] {logging_mixin.py:109} INFO - [2023-05-28 02:26:37,362] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:26:37,403] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:37,430] {logging_mixin.py:109} INFO - [2023-05-28 02:26:37,429] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:26:37,473] {logging_mixin.py:109} INFO - [2023-05-28 02:26:37,473] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:26:37,492] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.838 seconds
+[2023-05-28 02:26:51,949] {processor.py:163} INFO - Started process (PID=654) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:51,952] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:26:51,954] {logging_mixin.py:109} INFO - [2023-05-28 02:26:51,954] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:53,606] {logging_mixin.py:109} INFO - [2023-05-28 02:26:53,606] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:26:53,653] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:26:53,681] {logging_mixin.py:109} INFO - [2023-05-28 02:26:53,680] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:26:53,724] {logging_mixin.py:109} INFO - [2023-05-28 02:26:53,724] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:26:53,743] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.803 seconds
+[2023-05-28 02:27:07,853] {processor.py:163} INFO - Started process (PID=651) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:07,856] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:27:07,858] {logging_mixin.py:109} INFO - [2023-05-28 02:27:07,857] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:09,547] {logging_mixin.py:109} INFO - [2023-05-28 02:27:09,547] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:27:09,590] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:09,619] {logging_mixin.py:109} INFO - [2023-05-28 02:27:09,618] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:27:09,661] {logging_mixin.py:109} INFO - [2023-05-28 02:27:09,661] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:27:09,680] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.833 seconds
+[2023-05-28 02:27:24,204] {processor.py:163} INFO - Started process (PID=664) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:24,209] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:27:24,212] {logging_mixin.py:109} INFO - [2023-05-28 02:27:24,211] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:25,840] {logging_mixin.py:109} INFO - [2023-05-28 02:27:25,839] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:27:25,883] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:25,910] {logging_mixin.py:109} INFO - [2023-05-28 02:27:25,909] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:27:25,953] {logging_mixin.py:109} INFO - [2023-05-28 02:27:25,953] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:27:25,971] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.778 seconds
+[2023-05-28 02:27:40,215] {processor.py:163} INFO - Started process (PID=661) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:40,219] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:27:40,222] {logging_mixin.py:109} INFO - [2023-05-28 02:27:40,221] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:41,852] {logging_mixin.py:109} INFO - [2023-05-28 02:27:41,851] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:27:41,893] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:41,921] {logging_mixin.py:109} INFO - [2023-05-28 02:27:41,920] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:27:41,963] {logging_mixin.py:109} INFO - [2023-05-28 02:27:41,963] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:27:41,983] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.777 seconds
+[2023-05-28 02:27:56,406] {processor.py:163} INFO - Started process (PID=674) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:56,409] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:27:56,411] {logging_mixin.py:109} INFO - [2023-05-28 02:27:56,411] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:58,093] {logging_mixin.py:109} INFO - [2023-05-28 02:27:58,092] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:27:58,139] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:27:58,167] {logging_mixin.py:109} INFO - [2023-05-28 02:27:58,166] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:27:58,210] {logging_mixin.py:109} INFO - [2023-05-28 02:27:58,210] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:27:58,229] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.831 seconds
+[2023-05-28 02:28:12,344] {processor.py:163} INFO - Started process (PID=671) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:28:12,347] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:28:12,350] {logging_mixin.py:109} INFO - [2023-05-28 02:28:12,350] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:28:14,025] {logging_mixin.py:109} INFO - [2023-05-28 02:28:14,025] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:28:14,065] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:28:14,091] {logging_mixin.py:109} INFO - [2023-05-28 02:28:14,090] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:28:14,134] {logging_mixin.py:109} INFO - [2023-05-28 02:28:14,134] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:28:14,153] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.819 seconds
+[2023-05-28 02:28:28,654] {processor.py:163} INFO - Started process (PID=684) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:28:28,656] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:28:28,658] {logging_mixin.py:109} INFO - [2023-05-28 02:28:28,658] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:28:30,319] {logging_mixin.py:109} INFO - [2023-05-28 02:28:30,319] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:28:30,362] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:28:30,388] {logging_mixin.py:109} INFO - [2023-05-28 02:28:30,387] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:28:30,429] {logging_mixin.py:109} INFO - [2023-05-28 02:28:30,428] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:28:30,446] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.798 seconds
+[2023-05-28 02:28:44,873] {processor.py:163} INFO - Started process (PID=681) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:28:44,878] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:28:44,881] {logging_mixin.py:109} INFO - [2023-05-28 02:28:44,881] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:28:46,493] {logging_mixin.py:109} INFO - [2023-05-28 02:28:46,493] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:28:46,538] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:28:46,566] {logging_mixin.py:109} INFO - [2023-05-28 02:28:46,565] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:28:46,609] {logging_mixin.py:109} INFO - [2023-05-28 02:28:46,608] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:28:46,627] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.764 seconds
+[2023-05-28 02:29:00,677] {processor.py:163} INFO - Started process (PID=694) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:00,681] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:29:00,683] {logging_mixin.py:109} INFO - [2023-05-28 02:29:00,683] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:02,342] {logging_mixin.py:109} INFO - [2023-05-28 02:29:02,342] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:29:02,387] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:02,413] {logging_mixin.py:109} INFO - [2023-05-28 02:29:02,412] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:29:02,455] {logging_mixin.py:109} INFO - [2023-05-28 02:29:02,454] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:29:02,474] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.803 seconds
+[2023-05-28 02:29:16,986] {processor.py:163} INFO - Started process (PID=694) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:16,990] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:29:16,993] {logging_mixin.py:109} INFO - [2023-05-28 02:29:16,992] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:18,697] {logging_mixin.py:109} INFO - [2023-05-28 02:29:18,697] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:29:18,738] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:18,764] {logging_mixin.py:109} INFO - [2023-05-28 02:29:18,763] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:29:18,804] {logging_mixin.py:109} INFO - [2023-05-28 02:29:18,804] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:29:18,822] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.843 seconds
+[2023-05-28 02:29:32,991] {processor.py:163} INFO - Started process (PID=704) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:32,996] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:29:32,998] {logging_mixin.py:109} INFO - [2023-05-28 02:29:32,998] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:34,701] {logging_mixin.py:109} INFO - [2023-05-28 02:29:34,700] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:29:34,747] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:34,774] {logging_mixin.py:109} INFO - [2023-05-28 02:29:34,773] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:29:34,818] {logging_mixin.py:109} INFO - [2023-05-28 02:29:34,817] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:29:34,836] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.856 seconds
+[2023-05-28 02:29:48,998] {processor.py:163} INFO - Started process (PID=716) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:49,001] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:29:49,003] {logging_mixin.py:109} INFO - [2023-05-28 02:29:49,003] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:50,641] {logging_mixin.py:109} INFO - [2023-05-28 02:29:50,641] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:29:50,683] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:29:50,710] {logging_mixin.py:109} INFO - [2023-05-28 02:29:50,709] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:29:50,752] {logging_mixin.py:109} INFO - [2023-05-28 02:29:50,752] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:29:50,770] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.778 seconds
+[2023-05-28 02:30:05,341] {processor.py:163} INFO - Started process (PID=714) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:05,344] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:30:05,346] {logging_mixin.py:109} INFO - [2023-05-28 02:30:05,346] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:06,978] {logging_mixin.py:109} INFO - [2023-05-28 02:30:06,977] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:30:07,021] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:07,048] {logging_mixin.py:109} INFO - [2023-05-28 02:30:07,047] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:30:07,089] {logging_mixin.py:109} INFO - [2023-05-28 02:30:07,089] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:30:07,107] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.773 seconds
+[2023-05-28 02:30:21,133] {processor.py:163} INFO - Started process (PID=726) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:21,136] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:30:21,138] {logging_mixin.py:109} INFO - [2023-05-28 02:30:21,137] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:22,765] {logging_mixin.py:109} INFO - [2023-05-28 02:30:22,764] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:30:22,809] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:22,836] {logging_mixin.py:109} INFO - [2023-05-28 02:30:22,835] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:30:22,881] {logging_mixin.py:109} INFO - [2023-05-28 02:30:22,880] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:30:22,900] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.773 seconds
+[2023-05-28 02:30:37,536] {processor.py:163} INFO - Started process (PID=724) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:37,540] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:30:37,542] {logging_mixin.py:109} INFO - [2023-05-28 02:30:37,542] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:39,275] {logging_mixin.py:109} INFO - [2023-05-28 02:30:39,275] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:30:39,318] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:39,344] {logging_mixin.py:109} INFO - [2023-05-28 02:30:39,343] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:30:39,385] {logging_mixin.py:109} INFO - [2023-05-28 02:30:39,385] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:30:39,403] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.875 seconds
+[2023-05-28 02:30:53,127] {processor.py:163} INFO - Started process (PID=736) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:53,132] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:30:53,134] {logging_mixin.py:109} INFO - [2023-05-28 02:30:53,134] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:54,891] {logging_mixin.py:109} INFO - [2023-05-28 02:30:54,891] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:30:54,936] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:30:54,962] {logging_mixin.py:109} INFO - [2023-05-28 02:30:54,961] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:30:55,007] {logging_mixin.py:109} INFO - [2023-05-28 02:30:55,006] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:30:55,026] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.906 seconds
+[2023-05-28 02:31:09,609] {processor.py:163} INFO - Started process (PID=734) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:09,612] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:31:09,614] {logging_mixin.py:109} INFO - [2023-05-28 02:31:09,614] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:11,521] {logging_mixin.py:109} INFO - [2023-05-28 02:31:11,521] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:31:11,579] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:11,614] {logging_mixin.py:109} INFO - [2023-05-28 02:31:11,613] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:31:11,690] {logging_mixin.py:109} INFO - [2023-05-28 02:31:11,689] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:31:11,723] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.121 seconds
+[2023-05-28 02:31:25,416] {processor.py:163} INFO - Started process (PID=780) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:25,419] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:31:25,421] {logging_mixin.py:109} INFO - [2023-05-28 02:31:25,421] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:27,319] {logging_mixin.py:109} INFO - [2023-05-28 02:31:27,318] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:31:27,364] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:27,392] {logging_mixin.py:109} INFO - [2023-05-28 02:31:27,391] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:31:27,444] {logging_mixin.py:109} INFO - [2023-05-28 02:31:27,443] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:31:27,463] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.054 seconds
+[2023-05-28 02:31:41,915] {processor.py:163} INFO - Started process (PID=744) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:41,918] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:31:41,921] {logging_mixin.py:109} INFO - [2023-05-28 02:31:41,920] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:44,066] {logging_mixin.py:109} INFO - [2023-05-28 02:31:44,065] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:31:44,114] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:44,143] {logging_mixin.py:109} INFO - [2023-05-28 02:31:44,142] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:31:44,188] {logging_mixin.py:109} INFO - [2023-05-28 02:31:44,188] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:31:44,207] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.300 seconds
+[2023-05-28 02:31:57,686] {processor.py:163} INFO - Started process (PID=792) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:57,690] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:31:57,692] {logging_mixin.py:109} INFO - [2023-05-28 02:31:57,691] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:59,765] {logging_mixin.py:109} INFO - [2023-05-28 02:31:59,764] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:31:59,820] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:31:59,851] {logging_mixin.py:109} INFO - [2023-05-28 02:31:59,850] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:31:59,900] {logging_mixin.py:109} INFO - [2023-05-28 02:31:59,899] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:31:59,921] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.243 seconds
+[2023-05-28 02:32:14,419] {processor.py:163} INFO - Started process (PID=754) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:32:14,423] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:32:14,425] {logging_mixin.py:109} INFO - [2023-05-28 02:32:14,425] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:32:16,361] {logging_mixin.py:109} INFO - [2023-05-28 02:32:16,361] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:32:16,411] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:32:16,439] {logging_mixin.py:109} INFO - [2023-05-28 02:32:16,438] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:32:16,485] {logging_mixin.py:109} INFO - [2023-05-28 02:32:16,484] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:32:16,506] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.094 seconds
+[2023-05-28 02:32:30,159] {processor.py:163} INFO - Started process (PID=802) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:32:30,164] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:32:30,166] {logging_mixin.py:109} INFO - [2023-05-28 02:32:30,166] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:32:32,042] {logging_mixin.py:109} INFO - [2023-05-28 02:32:32,042] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:32:32,088] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:32:32,115] {logging_mixin.py:109} INFO - [2023-05-28 02:32:32,114] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:32:32,160] {logging_mixin.py:109} INFO - [2023-05-28 02:32:32,159] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:32:32,183] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.031 seconds
+[2023-05-28 02:32:46,665] {processor.py:163} INFO - Started process (PID=764) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:32:46,669] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:32:46,671] {logging_mixin.py:109} INFO - [2023-05-28 02:32:46,671] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:32:48,729] {logging_mixin.py:109} INFO - [2023-05-28 02:32:48,728] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:32:48,778] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:32:48,805] {logging_mixin.py:109} INFO - [2023-05-28 02:32:48,804] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:32:48,850] {logging_mixin.py:109} INFO - [2023-05-28 02:32:48,850] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:32:48,872] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.216 seconds
+[2023-05-28 02:33:02,388] {processor.py:163} INFO - Started process (PID=812) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:02,392] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:33:02,394] {logging_mixin.py:109} INFO - [2023-05-28 02:33:02,394] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:04,413] {logging_mixin.py:109} INFO - [2023-05-28 02:33:04,413] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:33:04,461] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:04,487] {logging_mixin.py:109} INFO - [2023-05-28 02:33:04,486] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:33:04,528] {logging_mixin.py:109} INFO - [2023-05-28 02:33:04,527] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:33:04,548] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.167 seconds
+[2023-05-28 02:33:19,034] {processor.py:163} INFO - Started process (PID=774) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:19,037] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:33:19,039] {logging_mixin.py:109} INFO - [2023-05-28 02:33:19,039] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:20,816] {logging_mixin.py:109} INFO - [2023-05-28 02:33:20,816] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:33:20,860] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:20,887] {logging_mixin.py:109} INFO - [2023-05-28 02:33:20,886] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:33:20,931] {logging_mixin.py:109} INFO - [2023-05-28 02:33:20,931] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:33:20,952] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.924 seconds
+[2023-05-28 02:33:34,724] {processor.py:163} INFO - Started process (PID=822) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:34,728] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:33:34,730] {logging_mixin.py:109} INFO - [2023-05-28 02:33:34,730] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:36,514] {logging_mixin.py:109} INFO - [2023-05-28 02:33:36,513] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:33:36,560] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:36,588] {logging_mixin.py:109} INFO - [2023-05-28 02:33:36,587] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:33:36,630] {logging_mixin.py:109} INFO - [2023-05-28 02:33:36,630] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:33:36,651] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.933 seconds
+[2023-05-28 02:33:51,144] {processor.py:163} INFO - Started process (PID=784) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:51,147] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:33:51,150] {logging_mixin.py:109} INFO - [2023-05-28 02:33:51,149] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:53,030] {logging_mixin.py:109} INFO - [2023-05-28 02:33:53,030] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:33:53,076] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:33:53,104] {logging_mixin.py:109} INFO - [2023-05-28 02:33:53,103] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:33:53,148] {logging_mixin.py:109} INFO - [2023-05-28 02:33:53,147] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:33:53,170] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.033 seconds
+[2023-05-28 02:34:06,806] {processor.py:163} INFO - Started process (PID=832) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:06,809] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:34:06,811] {logging_mixin.py:109} INFO - [2023-05-28 02:34:06,811] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:08,750] {logging_mixin.py:109} INFO - [2023-05-28 02:34:08,750] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:34:08,802] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:08,833] {logging_mixin.py:109} INFO - [2023-05-28 02:34:08,831] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:34:08,877] {logging_mixin.py:109} INFO - [2023-05-28 02:34:08,877] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:34:08,898] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.099 seconds
+[2023-05-28 02:34:23,395] {processor.py:163} INFO - Started process (PID=794) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:23,398] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:34:23,400] {logging_mixin.py:109} INFO - [2023-05-28 02:34:23,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:25,336] {logging_mixin.py:109} INFO - [2023-05-28 02:34:25,335] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:34:25,382] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:25,410] {logging_mixin.py:109} INFO - [2023-05-28 02:34:25,409] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:34:25,457] {logging_mixin.py:109} INFO - [2023-05-28 02:34:25,457] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:34:25,476] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.089 seconds
+[2023-05-28 02:34:39,032] {processor.py:163} INFO - Started process (PID=842) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:39,035] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:34:39,037] {logging_mixin.py:109} INFO - [2023-05-28 02:34:39,037] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:40,809] {logging_mixin.py:109} INFO - [2023-05-28 02:34:40,809] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:34:40,855] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:40,883] {logging_mixin.py:109} INFO - [2023-05-28 02:34:40,882] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:34:40,927] {logging_mixin.py:109} INFO - [2023-05-28 02:34:40,927] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:34:40,945] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.920 seconds
+[2023-05-28 02:34:55,623] {processor.py:163} INFO - Started process (PID=804) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:55,627] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:34:55,629] {logging_mixin.py:109} INFO - [2023-05-28 02:34:55,628] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:57,462] {logging_mixin.py:109} INFO - [2023-05-28 02:34:57,462] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:34:57,507] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:34:57,534] {logging_mixin.py:109} INFO - [2023-05-28 02:34:57,533] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:34:57,579] {logging_mixin.py:109} INFO - [2023-05-28 02:34:57,579] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:34:57,599] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.983 seconds
+[2023-05-28 02:35:11,217] {processor.py:163} INFO - Started process (PID=852) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:35:11,220] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:35:11,223] {logging_mixin.py:109} INFO - [2023-05-28 02:35:11,222] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:35:13,202] {logging_mixin.py:109} INFO - [2023-05-28 02:35:13,201] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:35:13,256] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:35:13,285] {logging_mixin.py:109} INFO - [2023-05-28 02:35:13,284] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:35:13,334] {logging_mixin.py:109} INFO - [2023-05-28 02:35:13,334] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:35:13,356] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.145 seconds
+[2023-05-28 02:35:27,912] {processor.py:163} INFO - Started process (PID=814) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:35:27,916] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:35:27,918] {logging_mixin.py:109} INFO - [2023-05-28 02:35:27,918] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:35:29,828] {logging_mixin.py:109} INFO - [2023-05-28 02:35:29,827] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:35:29,873] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:35:29,901] {logging_mixin.py:109} INFO - [2023-05-28 02:35:29,900] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:35:29,946] {logging_mixin.py:109} INFO - [2023-05-28 02:35:29,946] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:35:29,965] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.060 seconds
+[2023-05-28 02:35:43,551] {processor.py:163} INFO - Started process (PID=864) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:35:43,555] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:35:43,557] {logging_mixin.py:109} INFO - [2023-05-28 02:35:43,556] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:35:45,491] {logging_mixin.py:109} INFO - [2023-05-28 02:35:45,491] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:35:45,541] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:35:45,572] {logging_mixin.py:109} INFO - [2023-05-28 02:35:45,571] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:35:45,623] {logging_mixin.py:109} INFO - [2023-05-28 02:35:45,622] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:35:45,650] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.106 seconds
+[2023-05-28 02:36:00,158] {processor.py:163} INFO - Started process (PID=824) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:00,163] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:36:00,169] {logging_mixin.py:109} INFO - [2023-05-28 02:36:00,167] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:02,075] {logging_mixin.py:109} INFO - [2023-05-28 02:36:02,075] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:36:02,120] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:02,149] {logging_mixin.py:109} INFO - [2023-05-28 02:36:02,148] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:36:02,203] {logging_mixin.py:109} INFO - [2023-05-28 02:36:02,203] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:36:02,225] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.077 seconds
+[2023-05-28 02:36:15,825] {processor.py:163} INFO - Started process (PID=883) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:15,829] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:36:15,832] {logging_mixin.py:109} INFO - [2023-05-28 02:36:15,831] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:17,817] {logging_mixin.py:109} INFO - [2023-05-28 02:36:17,816] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:36:17,876] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:17,915] {logging_mixin.py:109} INFO - [2023-05-28 02:36:17,913] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:36:17,971] {logging_mixin.py:109} INFO - [2023-05-28 02:36:17,970] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:36:17,992] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.176 seconds
+[2023-05-28 02:36:32,463] {processor.py:163} INFO - Started process (PID=834) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:32,467] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:36:32,469] {logging_mixin.py:109} INFO - [2023-05-28 02:36:32,469] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:34,509] {logging_mixin.py:109} INFO - [2023-05-28 02:36:34,508] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:36:34,563] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:34,600] {logging_mixin.py:109} INFO - [2023-05-28 02:36:34,599] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:36:34,645] {logging_mixin.py:109} INFO - [2023-05-28 02:36:34,644] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:36:34,665] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.209 seconds
+[2023-05-28 02:36:48,088] {processor.py:163} INFO - Started process (PID=893) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:48,092] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:36:48,095] {logging_mixin.py:109} INFO - [2023-05-28 02:36:48,095] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:50,203] {logging_mixin.py:109} INFO - [2023-05-28 02:36:50,202] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:36:50,251] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:36:50,282] {logging_mixin.py:109} INFO - [2023-05-28 02:36:50,281] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:36:50,328] {logging_mixin.py:109} INFO - [2023-05-28 02:36:50,327] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:36:50,348] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.268 seconds
+[2023-05-28 02:37:04,809] {processor.py:163} INFO - Started process (PID=844) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:04,814] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:37:04,817] {logging_mixin.py:109} INFO - [2023-05-28 02:37:04,817] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:06,840] {logging_mixin.py:109} INFO - [2023-05-28 02:37:06,840] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:37:06,893] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:06,923] {logging_mixin.py:109} INFO - [2023-05-28 02:37:06,922] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:37:06,971] {logging_mixin.py:109} INFO - [2023-05-28 02:37:06,971] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:37:06,991] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.191 seconds
+[2023-05-28 02:37:20,448] {processor.py:163} INFO - Started process (PID=903) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:20,452] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:37:20,454] {logging_mixin.py:109} INFO - [2023-05-28 02:37:20,454] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:22,596] {logging_mixin.py:109} INFO - [2023-05-28 02:37:22,596] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:37:22,650] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:22,684] {logging_mixin.py:109} INFO - [2023-05-28 02:37:22,683] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:37:22,735] {logging_mixin.py:109} INFO - [2023-05-28 02:37:22,735] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:37:22,756] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.315 seconds
+[2023-05-28 02:37:37,182] {processor.py:163} INFO - Started process (PID=854) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:37,186] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:37:37,188] {logging_mixin.py:109} INFO - [2023-05-28 02:37:37,188] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:39,313] {logging_mixin.py:109} INFO - [2023-05-28 02:37:39,313] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:37:39,366] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:39,396] {logging_mixin.py:109} INFO - [2023-05-28 02:37:39,395] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:37:39,443] {logging_mixin.py:109} INFO - [2023-05-28 02:37:39,442] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:37:39,464] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.291 seconds
+[2023-05-28 02:37:52,972] {processor.py:163} INFO - Started process (PID=913) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:52,977] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:37:52,979] {logging_mixin.py:109} INFO - [2023-05-28 02:37:52,979] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:55,092] {logging_mixin.py:109} INFO - [2023-05-28 02:37:55,091] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:37:55,146] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:37:55,178] {logging_mixin.py:109} INFO - [2023-05-28 02:37:55,177] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:37:55,230] {logging_mixin.py:109} INFO - [2023-05-28 02:37:55,229] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:37:55,251] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.288 seconds
+[2023-05-28 02:38:09,650] {processor.py:163} INFO - Started process (PID=864) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:09,654] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:38:09,656] {logging_mixin.py:109} INFO - [2023-05-28 02:38:09,656] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:11,707] {logging_mixin.py:109} INFO - [2023-05-28 02:38:11,707] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:38:11,760] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:11,791] {logging_mixin.py:109} INFO - [2023-05-28 02:38:11,789] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:38:11,837] {logging_mixin.py:109} INFO - [2023-05-28 02:38:11,837] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:38:11,855] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.213 seconds
+[2023-05-28 02:38:25,466] {processor.py:163} INFO - Started process (PID=923) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:25,469] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:38:25,471] {logging_mixin.py:109} INFO - [2023-05-28 02:38:25,471] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:27,468] {logging_mixin.py:109} INFO - [2023-05-28 02:38:27,468] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:38:27,518] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:27,546] {logging_mixin.py:109} INFO - [2023-05-28 02:38:27,545] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:38:27,592] {logging_mixin.py:109} INFO - [2023-05-28 02:38:27,591] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:38:27,612] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.155 seconds
+[2023-05-28 02:38:42,034] {processor.py:163} INFO - Started process (PID=874) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:42,046] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:38:42,050] {logging_mixin.py:109} INFO - [2023-05-28 02:38:42,049] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:44,149] {logging_mixin.py:109} INFO - [2023-05-28 02:38:44,148] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:38:44,197] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:44,224] {logging_mixin.py:109} INFO - [2023-05-28 02:38:44,223] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:38:44,271] {logging_mixin.py:109} INFO - [2023-05-28 02:38:44,270] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:38:44,291] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.264 seconds
+[2023-05-28 02:38:57,701] {processor.py:163} INFO - Started process (PID=933) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:57,704] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:38:57,707] {logging_mixin.py:109} INFO - [2023-05-28 02:38:57,706] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:59,731] {logging_mixin.py:109} INFO - [2023-05-28 02:38:59,731] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:38:59,783] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:38:59,811] {logging_mixin.py:109} INFO - [2023-05-28 02:38:59,810] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:38:59,859] {logging_mixin.py:109} INFO - [2023-05-28 02:38:59,859] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:38:59,879] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.186 seconds
+[2023-05-28 02:39:14,485] {processor.py:163} INFO - Started process (PID=884) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:39:14,489] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:39:14,491] {logging_mixin.py:109} INFO - [2023-05-28 02:39:14,491] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:39:16,440] {logging_mixin.py:109} INFO - [2023-05-28 02:39:16,439] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:39:16,494] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:39:16,523] {logging_mixin.py:109} INFO - [2023-05-28 02:39:16,522] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:39:16,569] {logging_mixin.py:109} INFO - [2023-05-28 02:39:16,569] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:39:16,589] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.111 seconds
+[2023-05-28 02:39:30,031] {processor.py:163} INFO - Started process (PID=943) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:39:30,035] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:39:30,037] {logging_mixin.py:109} INFO - [2023-05-28 02:39:30,037] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:39:32,098] {logging_mixin.py:109} INFO - [2023-05-28 02:39:32,098] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:39:32,147] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:39:32,176] {logging_mixin.py:109} INFO - [2023-05-28 02:39:32,175] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:39:32,222] {logging_mixin.py:109} INFO - [2023-05-28 02:39:32,221] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:39:32,243] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.220 seconds
+[2023-05-28 02:39:46,737] {processor.py:163} INFO - Started process (PID=894) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:39:46,741] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:39:46,743] {logging_mixin.py:109} INFO - [2023-05-28 02:39:46,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:39:48,898] {logging_mixin.py:109} INFO - [2023-05-28 02:39:48,898] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:39:48,954] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:39:48,987] {logging_mixin.py:109} INFO - [2023-05-28 02:39:48,986] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:39:49,035] {logging_mixin.py:109} INFO - [2023-05-28 02:39:49,034] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:39:49,057] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.326 seconds
+[2023-05-28 02:40:02,427] {processor.py:163} INFO - Started process (PID=953) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:02,431] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:40:02,434] {logging_mixin.py:109} INFO - [2023-05-28 02:40:02,433] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:04,400] {logging_mixin.py:109} INFO - [2023-05-28 02:40:04,399] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:40:04,450] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:04,481] {logging_mixin.py:109} INFO - [2023-05-28 02:40:04,479] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:40:04,530] {logging_mixin.py:109} INFO - [2023-05-28 02:40:04,529] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:40:04,555] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.136 seconds
+[2023-05-28 02:40:19,299] {processor.py:163} INFO - Started process (PID=904) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:19,303] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:40:19,306] {logging_mixin.py:109} INFO - [2023-05-28 02:40:19,306] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:21,447] {logging_mixin.py:109} INFO - [2023-05-28 02:40:21,447] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:40:21,497] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:21,526] {logging_mixin.py:109} INFO - [2023-05-28 02:40:21,525] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:40:21,573] {logging_mixin.py:109} INFO - [2023-05-28 02:40:21,572] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:40:21,593] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.308 seconds
+[2023-05-28 02:40:34,735] {processor.py:163} INFO - Started process (PID=963) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:34,739] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:40:34,742] {logging_mixin.py:109} INFO - [2023-05-28 02:40:34,742] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:36,603] {logging_mixin.py:109} INFO - [2023-05-28 02:40:36,603] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:40:36,662] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:36,704] {logging_mixin.py:109} INFO - [2023-05-28 02:40:36,703] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:40:36,774] {logging_mixin.py:109} INFO - [2023-05-28 02:40:36,774] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:40:36,802] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.074 seconds
+[2023-05-28 02:40:51,788] {processor.py:163} INFO - Started process (PID=914) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:51,793] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:40:51,795] {logging_mixin.py:109} INFO - [2023-05-28 02:40:51,795] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:53,773] {logging_mixin.py:109} INFO - [2023-05-28 02:40:53,773] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:40:53,824] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:40:53,862] {logging_mixin.py:109} INFO - [2023-05-28 02:40:53,860] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:40:53,926] {logging_mixin.py:109} INFO - [2023-05-28 02:40:53,925] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:40:53,953] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.172 seconds
+[2023-05-28 02:41:06,986] {processor.py:163} INFO - Started process (PID=973) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:06,990] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:41:06,993] {logging_mixin.py:109} INFO - [2023-05-28 02:41:06,992] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:08,934] {logging_mixin.py:109} INFO - [2023-05-28 02:41:08,934] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:41:08,980] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:09,010] {logging_mixin.py:109} INFO - [2023-05-28 02:41:09,009] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:41:09,056] {logging_mixin.py:109} INFO - [2023-05-28 02:41:09,055] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:41:09,088] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.109 seconds
+[2023-05-28 02:41:24,162] {processor.py:163} INFO - Started process (PID=924) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:24,166] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:41:24,169] {logging_mixin.py:109} INFO - [2023-05-28 02:41:24,168] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:26,281] {logging_mixin.py:109} INFO - [2023-05-28 02:41:26,280] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:41:26,328] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:26,356] {logging_mixin.py:109} INFO - [2023-05-28 02:41:26,355] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:41:26,405] {logging_mixin.py:109} INFO - [2023-05-28 02:41:26,405] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:41:26,432] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.278 seconds
+[2023-05-28 02:41:39,234] {processor.py:163} INFO - Started process (PID=983) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:39,237] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:41:39,240] {logging_mixin.py:109} INFO - [2023-05-28 02:41:39,239] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:41,439] {logging_mixin.py:109} INFO - [2023-05-28 02:41:41,438] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:41:41,502] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:41,533] {logging_mixin.py:109} INFO - [2023-05-28 02:41:41,531] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:41:41,583] {logging_mixin.py:109} INFO - [2023-05-28 02:41:41,583] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:41:41,607] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.381 seconds
+[2023-05-28 02:41:56,679] {processor.py:163} INFO - Started process (PID=934) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:56,682] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:41:56,684] {logging_mixin.py:109} INFO - [2023-05-28 02:41:56,684] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:58,647] {logging_mixin.py:109} INFO - [2023-05-28 02:41:58,646] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:41:58,693] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:41:58,721] {logging_mixin.py:109} INFO - [2023-05-28 02:41:58,720] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:41:58,769] {logging_mixin.py:109} INFO - [2023-05-28 02:41:58,769] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:41:58,789] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.118 seconds
+[2023-05-28 02:42:11,788] {processor.py:163} INFO - Started process (PID=993) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:42:11,791] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:42:11,794] {logging_mixin.py:109} INFO - [2023-05-28 02:42:11,794] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:42:13,771] {logging_mixin.py:109} INFO - [2023-05-28 02:42:13,771] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:42:13,844] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:42:13,878] {logging_mixin.py:109} INFO - [2023-05-28 02:42:13,877] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:42:13,929] {logging_mixin.py:109} INFO - [2023-05-28 02:42:13,928] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:42:13,949] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.169 seconds
+[2023-05-28 02:42:28,940] {processor.py:163} INFO - Started process (PID=944) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:42:28,947] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:42:28,950] {logging_mixin.py:109} INFO - [2023-05-28 02:42:28,949] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:42:31,030] {logging_mixin.py:109} INFO - [2023-05-28 02:42:31,030] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:42:31,086] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:42:31,117] {logging_mixin.py:109} INFO - [2023-05-28 02:42:31,116] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:42:31,164] {logging_mixin.py:109} INFO - [2023-05-28 02:42:31,163] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:42:31,183] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.261 seconds
+[2023-05-28 02:42:44,070] {processor.py:163} INFO - Started process (PID=1003) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:42:44,075] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:42:44,077] {logging_mixin.py:109} INFO - [2023-05-28 02:42:44,077] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:42:46,007] {logging_mixin.py:109} INFO - [2023-05-28 02:42:46,007] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:42:46,055] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:42:46,083] {logging_mixin.py:109} INFO - [2023-05-28 02:42:46,082] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:42:46,132] {logging_mixin.py:109} INFO - [2023-05-28 02:42:46,131] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:42:46,150] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.092 seconds
+[2023-05-28 02:43:01,290] {processor.py:163} INFO - Started process (PID=954) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:01,295] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:43:01,298] {logging_mixin.py:109} INFO - [2023-05-28 02:43:01,297] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:03,309] {logging_mixin.py:109} INFO - [2023-05-28 02:43:03,309] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:43:03,356] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:03,384] {logging_mixin.py:109} INFO - [2023-05-28 02:43:03,383] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:43:03,426] {logging_mixin.py:109} INFO - [2023-05-28 02:43:03,426] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:43:03,446] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.166 seconds
+[2023-05-28 02:43:16,371] {processor.py:163} INFO - Started process (PID=1013) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:16,375] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:43:16,378] {logging_mixin.py:109} INFO - [2023-05-28 02:43:16,378] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:18,506] {logging_mixin.py:109} INFO - [2023-05-28 02:43:18,506] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:43:18,559] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:18,591] {logging_mixin.py:109} INFO - [2023-05-28 02:43:18,590] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:43:18,642] {logging_mixin.py:109} INFO - [2023-05-28 02:43:18,642] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:43:18,664] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.303 seconds
+[2023-05-28 02:43:33,687] {processor.py:163} INFO - Started process (PID=964) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:33,691] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:43:33,694] {logging_mixin.py:109} INFO - [2023-05-28 02:43:33,693] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:35,839] {logging_mixin.py:109} INFO - [2023-05-28 02:43:35,838] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:43:35,915] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:35,950] {logging_mixin.py:109} INFO - [2023-05-28 02:43:35,949] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:43:36,003] {logging_mixin.py:109} INFO - [2023-05-28 02:43:36,002] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:43:36,029] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.354 seconds
+[2023-05-28 02:43:48,875] {processor.py:163} INFO - Started process (PID=1023) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:48,879] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:43:48,881] {logging_mixin.py:109} INFO - [2023-05-28 02:43:48,881] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:50,793] {logging_mixin.py:109} INFO - [2023-05-28 02:43:50,793] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:43:50,849] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:43:50,881] {logging_mixin.py:109} INFO - [2023-05-28 02:43:50,880] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:43:50,931] {logging_mixin.py:109} INFO - [2023-05-28 02:43:50,931] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:43:50,954] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.087 seconds
+[2023-05-28 02:44:06,260] {processor.py:163} INFO - Started process (PID=974) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:06,263] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:44:06,266] {logging_mixin.py:109} INFO - [2023-05-28 02:44:06,265] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:08,214] {logging_mixin.py:109} INFO - [2023-05-28 02:44:08,213] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:44:08,276] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:08,311] {logging_mixin.py:109} INFO - [2023-05-28 02:44:08,310] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:44:08,366] {logging_mixin.py:109} INFO - [2023-05-28 02:44:08,366] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:44:08,393] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.142 seconds
+[2023-05-28 02:44:21,280] {processor.py:163} INFO - Started process (PID=1033) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:21,285] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:44:21,289] {logging_mixin.py:109} INFO - [2023-05-28 02:44:21,288] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:23,191] {logging_mixin.py:109} INFO - [2023-05-28 02:44:23,191] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:44:23,242] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:23,271] {logging_mixin.py:109} INFO - [2023-05-28 02:44:23,270] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:44:23,316] {logging_mixin.py:109} INFO - [2023-05-28 02:44:23,315] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:44:23,338] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.070 seconds
+[2023-05-28 02:44:38,712] {processor.py:163} INFO - Started process (PID=984) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:38,716] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:44:38,718] {logging_mixin.py:109} INFO - [2023-05-28 02:44:38,718] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:40,449] {logging_mixin.py:109} INFO - [2023-05-28 02:44:40,449] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:44:40,497] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:40,525] {logging_mixin.py:109} INFO - [2023-05-28 02:44:40,524] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:44:40,568] {logging_mixin.py:109} INFO - [2023-05-28 02:44:40,567] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:44:40,585] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.880 seconds
+[2023-05-28 02:44:53,808] {processor.py:163} INFO - Started process (PID=1043) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:53,813] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:44:53,815] {logging_mixin.py:109} INFO - [2023-05-28 02:44:53,815] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:55,618] {logging_mixin.py:109} INFO - [2023-05-28 02:44:55,617] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:44:55,666] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:44:55,694] {logging_mixin.py:109} INFO - [2023-05-28 02:44:55,693] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:44:55,737] {logging_mixin.py:109} INFO - [2023-05-28 02:44:55,737] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:44:55,756] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.960 seconds
+[2023-05-28 02:45:10,961] {processor.py:163} INFO - Started process (PID=994) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:45:10,966] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:45:10,969] {logging_mixin.py:109} INFO - [2023-05-28 02:45:10,968] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:45:12,933] {logging_mixin.py:109} INFO - [2023-05-28 02:45:12,932] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:45:12,987] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:45:13,016] {logging_mixin.py:109} INFO - [2023-05-28 02:45:13,015] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:45:13,059] {logging_mixin.py:109} INFO - [2023-05-28 02:45:13,059] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:45:13,079] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.126 seconds
+[2023-05-28 02:45:26,275] {processor.py:163} INFO - Started process (PID=1053) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:45:26,279] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:45:26,284] {logging_mixin.py:109} INFO - [2023-05-28 02:45:26,283] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:45:28,381] {logging_mixin.py:109} INFO - [2023-05-28 02:45:28,381] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:45:28,436] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:45:28,468] {logging_mixin.py:109} INFO - [2023-05-28 02:45:28,467] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:45:28,519] {logging_mixin.py:109} INFO - [2023-05-28 02:45:28,518] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:45:28,542] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.275 seconds
+[2023-05-28 02:45:43,560] {processor.py:163} INFO - Started process (PID=1004) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:45:43,565] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:45:43,568] {logging_mixin.py:109} INFO - [2023-05-28 02:45:43,567] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:45:45,603] {logging_mixin.py:109} INFO - [2023-05-28 02:45:45,602] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:45:45,654] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:45:45,686] {logging_mixin.py:109} INFO - [2023-05-28 02:45:45,684] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:45:45,733] {logging_mixin.py:109} INFO - [2023-05-28 02:45:45,733] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:45:45,752] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.200 seconds
+[2023-05-28 02:45:58,800] {processor.py:163} INFO - Started process (PID=1063) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:45:58,806] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:45:58,809] {logging_mixin.py:109} INFO - [2023-05-28 02:45:58,809] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:00,588] {logging_mixin.py:109} INFO - [2023-05-28 02:46:00,587] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:46:00,636] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:00,666] {logging_mixin.py:109} INFO - [2023-05-28 02:46:00,665] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:46:00,714] {logging_mixin.py:109} INFO - [2023-05-28 02:46:00,713] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:46:00,733] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.945 seconds
+[2023-05-28 02:46:16,056] {processor.py:163} INFO - Started process (PID=1014) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:16,060] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:46:16,062] {logging_mixin.py:109} INFO - [2023-05-28 02:46:16,062] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:17,843] {logging_mixin.py:109} INFO - [2023-05-28 02:46:17,842] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:46:17,890] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:17,917] {logging_mixin.py:109} INFO - [2023-05-28 02:46:17,916] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:46:17,960] {logging_mixin.py:109} INFO - [2023-05-28 02:46:17,959] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:46:17,979] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.930 seconds
+[2023-05-28 02:46:31,255] {processor.py:163} INFO - Started process (PID=1073) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:31,259] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:46:31,262] {logging_mixin.py:109} INFO - [2023-05-28 02:46:31,261] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:33,265] {logging_mixin.py:109} INFO - [2023-05-28 02:46:33,265] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:46:33,321] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:33,352] {logging_mixin.py:109} INFO - [2023-05-28 02:46:33,351] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:46:33,398] {logging_mixin.py:109} INFO - [2023-05-28 02:46:33,397] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:46:33,419] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 2.173 seconds
+[2023-05-28 02:46:48,468] {processor.py:163} INFO - Started process (PID=1024) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:48,472] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:46:48,475] {logging_mixin.py:109} INFO - [2023-05-28 02:46:48,475] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:50,284] {logging_mixin.py:109} INFO - [2023-05-28 02:46:50,284] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:46:50,331] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:46:50,359] {logging_mixin.py:109} INFO - [2023-05-28 02:46:50,358] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:46:50,405] {logging_mixin.py:109} INFO - [2023-05-28 02:46:50,405] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:46:50,427] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.968 seconds
+[2023-05-28 02:47:03,734] {processor.py:163} INFO - Started process (PID=1083) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:03,739] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:47:03,742] {logging_mixin.py:109} INFO - [2023-05-28 02:47:03,741] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:05,487] {logging_mixin.py:109} INFO - [2023-05-28 02:47:05,487] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:47:05,535] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:05,566] {logging_mixin.py:109} INFO - [2023-05-28 02:47:05,565] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:47:05,612] {logging_mixin.py:109} INFO - [2023-05-28 02:47:05,611] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:47:05,632] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.908 seconds
+[2023-05-28 02:47:20,903] {processor.py:163} INFO - Started process (PID=1034) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:20,906] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:47:20,908] {logging_mixin.py:109} INFO - [2023-05-28 02:47:20,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:22,705] {logging_mixin.py:109} INFO - [2023-05-28 02:47:22,704] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:47:22,756] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:22,790] {logging_mixin.py:109} INFO - [2023-05-28 02:47:22,789] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:47:22,839] {logging_mixin.py:109} INFO - [2023-05-28 02:47:22,838] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:47:22,861] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.964 seconds
+[2023-05-28 02:47:36,122] {processor.py:163} INFO - Started process (PID=1093) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:36,125] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:47:36,127] {logging_mixin.py:109} INFO - [2023-05-28 02:47:36,127] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:37,800] {logging_mixin.py:109} INFO - [2023-05-28 02:47:37,800] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:47:37,849] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:37,879] {logging_mixin.py:109} INFO - [2023-05-28 02:47:37,878] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:47:37,924] {logging_mixin.py:109} INFO - [2023-05-28 02:47:37,923] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:47:37,944] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.829 seconds
+[2023-05-28 02:47:53,374] {processor.py:163} INFO - Started process (PID=1044) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:53,378] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:47:53,380] {logging_mixin.py:109} INFO - [2023-05-28 02:47:53,380] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:55,175] {logging_mixin.py:109} INFO - [2023-05-28 02:47:55,175] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:47:55,222] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:47:55,253] {logging_mixin.py:109} INFO - [2023-05-28 02:47:55,251] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:47:55,298] {logging_mixin.py:109} INFO - [2023-05-28 02:47:55,297] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:47:55,317] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.951 seconds
+[2023-05-28 02:48:08,328] {processor.py:163} INFO - Started process (PID=1106) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:48:08,332] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:48:08,334] {logging_mixin.py:109} INFO - [2023-05-28 02:48:08,334] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:48:10,165] {logging_mixin.py:109} INFO - [2023-05-28 02:48:10,164] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:48:10,210] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:48:10,237] {logging_mixin.py:109} INFO - [2023-05-28 02:48:10,236] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:48:10,279] {logging_mixin.py:109} INFO - [2023-05-28 02:48:10,278] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:48:10,298] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.978 seconds
+[2023-05-28 02:48:25,849] {processor.py:163} INFO - Started process (PID=1054) to work on /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:48:25,853] {processor.py:620} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2023-05-28 02:48:25,856] {logging_mixin.py:109} INFO - [2023-05-28 02:48:25,855] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:48:27,578] {logging_mixin.py:109} INFO - [2023-05-28 02:48:27,578] {data_ingestion_local.py:39} INFO - Passing PG_USER: postgres, PG_PASSWORD: postgres, PG_HOST: postgres, PG_PORT: 5432, PG_DATABASE: airflow
+[2023-05-28 02:48:27,620] {processor.py:632} INFO - DAG(s) dict_keys(['LocalIngestionDag']) retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2023-05-28 02:48:27,646] {logging_mixin.py:109} INFO - [2023-05-28 02:48:27,645] {dag.py:2389} INFO - Sync 1 DAGs
+[2023-05-28 02:48:27,687] {logging_mixin.py:109} INFO - [2023-05-28 02:48:27,687] {dag.py:2914} INFO - Setting next_dagrun for LocalIngestionDag to 2023-05-02T06:00:00+00:00
+[2023-05-28 02:48:27,705] {processor.py:171} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 1.862 seconds

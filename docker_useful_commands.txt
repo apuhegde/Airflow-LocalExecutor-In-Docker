@@ -1,0 +1,3 @@
+docker ps
+docker exec -it <container ID> bash
+docker compose down --volumes --rmi all --remove-orphans

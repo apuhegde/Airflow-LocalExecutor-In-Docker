@@ -1,0 +1,391 @@
+[2023-05-24 01:46:02,397] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-24 01:46:02,439] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-24 01:46:02,440] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 01:46:02,441] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 01:46:02,442] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 01:46:02,482] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-04-02 06:00:00+00:00
+[2023-05-24 01:46:02,494] {standard_task_runner.py:52} INFO - Started process 496 to run task
+[2023-05-24 01:46:02,505] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'scheduled__2023-04-02T06:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmp8jxzom5m', '--error-file', '/tmp/tmp57il6ex7']
+[2023-05-24 01:46:02,508] {standard_task_runner.py:77} INFO - Job 3: Subtask wget
+[2023-05-24 01:46:02,629] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [running]> on host 4d0399dfad6d
+[2023-05-24 01:46:02,757] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py:1917 DeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' instead.
+[2023-05-24 01:46:02,824] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-02T06:00:00+00:00
+[2023-05-24 01:46:02,828] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 01:46:02,833] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2023-04.csv > /opt/airflow/output_2023-04.csv']
+[2023-05-24 01:46:02,854] {subprocess.py:85} INFO - Output:
+[2023-05-24 01:46:03,510] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 01:46:03,563] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230402T060000, start_date=20230524T014602, end_date=20230524T014603
+[2023-05-24 01:46:03,618] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 01:46:03,695] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 02:42:56,517] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-24 02:42:56,560] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-24 02:42:56,561] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 02:42:56,562] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 02:42:56,563] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 02:42:56,602] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-04-02 06:00:00+00:00
+[2023-05-24 02:42:56,612] {standard_task_runner.py:52} INFO - Started process 298 to run task
+[2023-05-24 02:42:56,621] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'scheduled__2023-04-02T06:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpwumwfb7u', '--error-file', '/tmp/tmp7uxc8u5g']
+[2023-05-24 02:42:56,624] {standard_task_runner.py:77} INFO - Job 3: Subtask wget
+[2023-05-24 02:42:56,733] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [running]> on host 1728c5ef1381
+[2023-05-24 02:42:56,846] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-02T06:00:00+00:00
+[2023-05-24 02:42:56,850] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 02:42:56,851] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 02:42:56,872] {subprocess.py:85} INFO - Output:
+[2023-05-24 02:43:00,277] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 02:43:00,399] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230402T060000, start_date=20230524T024256, end_date=20230524T024300
+[2023-05-24 02:43:00,487] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 02:43:00,625] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 02:43:02,962] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T02:42:59.443411+00:00 [queued]>
+[2023-05-24 02:43:03,005] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T02:42:59.443411+00:00 [queued]>
+[2023-05-24 02:43:03,006] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 02:43:03,007] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 02:43:03,008] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 02:43:03,045] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-05-24 02:42:59.443411+00:00
+[2023-05-24 02:43:03,056] {standard_task_runner.py:52} INFO - Started process 314 to run task
+[2023-05-24 02:43:03,065] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'manual__2023-05-24T02:42:59.443411+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpop4hfxda', '--error-file', '/tmp/tmp00f7zct9']
+[2023-05-24 02:43:03,068] {standard_task_runner.py:77} INFO - Job 4: Subtask wget
+[2023-05-24 02:43:03,179] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T02:42:59.443411+00:00 [running]> on host 1728c5ef1381
+[2023-05-24 02:43:03,312] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-24T02:42:59.443411+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-24T02:42:59.443411+00:00
+[2023-05-24 02:43:03,316] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 02:43:03,318] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 02:43:03,333] {subprocess.py:85} INFO - Output:
+[2023-05-24 02:43:06,258] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 02:43:06,323] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230524T024259, start_date=20230524T024302, end_date=20230524T024306
+[2023-05-24 02:43:06,387] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 02:43:06,484] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 03:08:44,342] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-24 03:08:44,342] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T03:08:40.612251+00:00 [queued]>
+[2023-05-24 03:08:44,383] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-24 03:08:44,385] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 03:08:44,386] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T03:08:40.612251+00:00 [queued]>
+[2023-05-24 03:08:44,387] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 03:08:44,387] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 03:08:44,388] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 03:08:44,388] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 03:08:44,389] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 03:08:44,423] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-05-24 03:08:40.612251+00:00
+[2023-05-24 03:08:44,423] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-04-02 06:00:00+00:00
+[2023-05-24 03:08:44,435] {standard_task_runner.py:52} INFO - Started process 304 to run task
+[2023-05-24 03:08:44,445] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'scheduled__2023-04-02T06:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmp_s4v7ldr', '--error-file', '/tmp/tmp4wp24rwc']
+[2023-05-24 03:08:44,444] {standard_task_runner.py:52} INFO - Started process 306 to run task
+[2023-05-24 03:08:44,447] {standard_task_runner.py:77} INFO - Job 4: Subtask wget
+[2023-05-24 03:08:44,453] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'manual__2023-05-24T03:08:40.612251+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmphherwqkl', '--error-file', '/tmp/tmp0yiz90xh']
+[2023-05-24 03:08:44,456] {standard_task_runner.py:77} INFO - Job 3: Subtask wget
+[2023-05-24 03:08:44,593] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [running]> on host ea1e33377ae6
+[2023-05-24 03:08:44,601] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T03:08:40.612251+00:00 [running]> on host ea1e33377ae6
+[2023-05-24 03:08:44,746] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-02T06:00:00+00:00
+[2023-05-24 03:08:44,751] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 03:08:44,751] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-24T03:08:40.612251+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-24T03:08:40.612251+00:00
+[2023-05-24 03:08:44,754] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 03:08:44,757] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 03:08:44,761] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 03:08:44,781] {subprocess.py:85} INFO - Output:
+[2023-05-24 03:08:44,782] {subprocess.py:85} INFO - Output:
+[2023-05-24 03:08:49,202] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 03:08:49,272] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230524T030840, start_date=20230524T030844, end_date=20230524T030849
+[2023-05-24 03:08:49,351] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 03:08:49,433] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 03:08:52,167] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 03:08:52,257] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230402T060000, start_date=20230524T030844, end_date=20230524T030852
+[2023-05-24 03:08:52,377] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 03:08:52,459] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 18:28:50,578] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:28:46.915680+00:00 [queued]>
+[2023-05-24 18:28:50,582] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-24 18:28:50,618] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:28:46.915680+00:00 [queued]>
+[2023-05-24 18:28:50,620] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:28:50,621] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 18:28:50,622] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:28:50,622] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-24 18:28:50,623] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:28:50,624] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 18:28:50,625] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:28:50,658] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-05-24 18:28:46.915680+00:00
+[2023-05-24 18:28:50,658] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-04-02 06:00:00+00:00
+[2023-05-24 18:28:50,670] {standard_task_runner.py:52} INFO - Started process 453 to run task
+[2023-05-24 18:28:50,670] {standard_task_runner.py:52} INFO - Started process 454 to run task
+[2023-05-24 18:28:50,678] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'manual__2023-05-24T18:28:46.915680+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpocytvd4h', '--error-file', '/tmp/tmpk96ua7um']
+[2023-05-24 18:28:50,679] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'scheduled__2023-04-02T06:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmplx34n2qo', '--error-file', '/tmp/tmpilioj9cu']
+[2023-05-24 18:28:50,689] {standard_task_runner.py:77} INFO - Job 3: Subtask wget
+[2023-05-24 18:28:50,689] {standard_task_runner.py:77} INFO - Job 4: Subtask wget
+[2023-05-24 18:28:50,784] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:28:46.915680+00:00 [running]> on host 4e3cc1253c61
+[2023-05-24 18:28:50,787] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [running]> on host 4e3cc1253c61
+[2023-05-24 18:28:50,897] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-24T18:28:46.915680+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-24T18:28:46.915680+00:00
+[2023-05-24 18:28:50,901] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 18:28:50,902] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 18:28:50,904] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-02T06:00:00+00:00
+[2023-05-24 18:28:50,907] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 18:28:50,909] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 18:28:50,923] {subprocess.py:85} INFO - Output:
+[2023-05-24 18:28:50,925] {subprocess.py:85} INFO - Output:
+[2023-05-24 18:28:54,617] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 18:28:54,679] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230524T182846, start_date=20230524T182850, end_date=20230524T182854
+[2023-05-24 18:28:54,731] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 18:28:54,809] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 18:28:57,738] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 18:28:57,789] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230402T060000, start_date=20230524T182850, end_date=20230524T182857
+[2023-05-24 18:28:57,851] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 18:28:57,922] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 18:42:45,209] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:42:41.904817+00:00 [queued]>
+[2023-05-24 18:42:45,239] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:42:41.904817+00:00 [queued]>
+[2023-05-24 18:42:45,240] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:42:45,241] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 18:42:45,242] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:42:45,281] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-05-24 18:42:41.904817+00:00
+[2023-05-24 18:42:45,291] {standard_task_runner.py:52} INFO - Started process 747 to run task
+[2023-05-24 18:42:45,298] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'manual__2023-05-24T18:42:41.904817+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpn5vzkpog', '--error-file', '/tmp/tmptgyh7mzj']
+[2023-05-24 18:42:45,301] {standard_task_runner.py:77} INFO - Job 7: Subtask wget
+[2023-05-24 18:42:45,386] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:42:41.904817+00:00 [running]> on host 69b0ea06fe0f
+[2023-05-24 18:42:45,497] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-24T18:42:41.904817+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-24T18:42:41.904817+00:00
+[2023-05-24 18:42:45,501] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 18:42:45,503] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 18:42:45,519] {subprocess.py:85} INFO - Output:
+[2023-05-24 18:42:48,553] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 18:42:48,606] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230524T184241, start_date=20230524T184245, end_date=20230524T184248
+[2023-05-24 18:42:48,686] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 18:42:48,767] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 18:48:55,291] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:48:52.516427+00:00 [queued]>
+[2023-05-24 18:48:55,324] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:48:52.516427+00:00 [queued]>
+[2023-05-24 18:48:55,325] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:48:55,326] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 18:48:55,327] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:48:55,371] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-05-24 18:48:52.516427+00:00
+[2023-05-24 18:48:55,382] {standard_task_runner.py:52} INFO - Started process 921 to run task
+[2023-05-24 18:48:55,390] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'manual__2023-05-24T18:48:52.516427+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmp9831_usb', '--error-file', '/tmp/tmpsqbzz52q']
+[2023-05-24 18:48:55,393] {standard_task_runner.py:77} INFO - Job 9: Subtask wget
+[2023-05-24 18:48:55,482] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:48:52.516427+00:00 [running]> on host 69b0ea06fe0f
+[2023-05-24 18:48:55,594] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-24T18:48:52.516427+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-24T18:48:52.516427+00:00
+[2023-05-24 18:48:55,597] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 18:48:55,599] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 18:48:55,614] {subprocess.py:85} INFO - Output:
+[2023-05-24 18:48:58,679] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 18:48:58,738] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230524T184852, start_date=20230524T184855, end_date=20230524T184858
+[2023-05-24 18:48:58,813] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 18:48:58,891] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 18:59:13,990] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:59:10.885830+00:00 [queued]>
+[2023-05-24 18:59:14,033] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:59:10.885830+00:00 [queued]>
+[2023-05-24 18:59:14,035] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:59:14,036] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 18:59:14,037] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:59:14,070] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-05-24 18:59:10.885830+00:00
+[2023-05-24 18:59:14,071] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-24 18:59:14,080] {standard_task_runner.py:52} INFO - Started process 324 to run task
+[2023-05-24 18:59:14,091] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'manual__2023-05-24T18:59:10.885830+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpth2pj32r', '--error-file', '/tmp/tmp9d87aabo']
+[2023-05-24 18:59:14,093] {standard_task_runner.py:77} INFO - Job 3: Subtask wget
+[2023-05-24 18:59:14,120] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-24 18:59:14,121] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:59:14,122] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 18:59:14,123] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 18:59:14,158] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-04-02 06:00:00+00:00
+[2023-05-24 18:59:14,169] {standard_task_runner.py:52} INFO - Started process 326 to run task
+[2023-05-24 18:59:14,178] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'scheduled__2023-04-02T06:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmp0m3stubh', '--error-file', '/tmp/tmpws2m8csr']
+[2023-05-24 18:59:14,180] {standard_task_runner.py:77} INFO - Job 4: Subtask wget
+[2023-05-24 18:59:14,196] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T18:59:10.885830+00:00 [running]> on host b508a1efe73d
+[2023-05-24 18:59:14,287] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [running]> on host b508a1efe73d
+[2023-05-24 18:59:14,321] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-24T18:59:10.885830+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-24T18:59:10.885830+00:00
+[2023-05-24 18:59:14,325] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 18:59:14,326] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 18:59:14,342] {subprocess.py:85} INFO - Output:
+[2023-05-24 18:59:14,409] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-02T06:00:00+00:00
+[2023-05-24 18:59:14,413] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 18:59:14,415] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 18:59:14,429] {subprocess.py:85} INFO - Output:
+[2023-05-24 18:59:17,904] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 18:59:17,975] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230524T185910, start_date=20230524T185913, end_date=20230524T185917
+[2023-05-24 18:59:18,029] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 18:59:18,111] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 18:59:21,283] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 18:59:21,338] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230402T060000, start_date=20230524T185914, end_date=20230524T185921
+[2023-05-24 18:59:21,415] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 18:59:21,487] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-24 19:14:50,302] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T19:14:47.296509+00:00 [queued]>
+[2023-05-24 19:14:50,341] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T19:14:47.296509+00:00 [queued]>
+[2023-05-24 19:14:50,342] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 19:14:50,343] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-24 19:14:50,344] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-24 19:14:50,377] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-05-24 19:14:47.296509+00:00
+[2023-05-24 19:14:50,387] {standard_task_runner.py:52} INFO - Started process 656 to run task
+[2023-05-24 19:14:50,395] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'manual__2023-05-24T19:14:47.296509+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmp_2uvoi36', '--error-file', '/tmp/tmp8fwkav29']
+[2023-05-24 19:14:50,398] {standard_task_runner.py:77} INFO - Job 7: Subtask wget
+[2023-05-24 19:14:50,483] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget manual__2023-05-24T19:14:47.296509+00:00 [running]> on host b508a1efe73d
+[2023-05-24 19:14:50,598] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-24T19:14:47.296509+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-24T19:14:47.296509+00:00
+[2023-05-24 19:14:50,602] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-24 19:14:50,604] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-24 19:14:50,621] {subprocess.py:85} INFO - Output:
+[2023-05-24 19:14:53,830] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-24 19:14:53,892] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230524T191447, start_date=20230524T191450, end_date=20230524T191453
+[2023-05-24 19:14:53,948] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-24 19:14:54,038] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-28 02:20:30,146] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-28T02:20:26.667408+00:00 [queued]>
+[2023-05-28 02:20:30,146] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-28 02:20:30,187] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-28T02:20:26.667408+00:00 [queued]>
+[2023-05-28 02:20:30,189] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-28 02:20:30,190] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-28 02:20:30,191] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [queued]>
+[2023-05-28 02:20:30,191] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-28 02:20:30,192] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-28 02:20:30,193] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-28 02:20:30,194] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-28 02:20:30,228] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-05-28 02:20:26.667408+00:00
+[2023-05-28 02:20:30,228] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-04-02 06:00:00+00:00
+[2023-05-28 02:20:30,240] {standard_task_runner.py:52} INFO - Started process 525 to run task
+[2023-05-28 02:20:30,240] {standard_task_runner.py:52} INFO - Started process 524 to run task
+[2023-05-28 02:20:30,249] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'manual__2023-05-28T02:20:26.667408+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpib8stze9', '--error-file', '/tmp/tmpvht_kkkf']
+[2023-05-28 02:20:30,250] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'scheduled__2023-04-02T06:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmp30v8yrti', '--error-file', '/tmp/tmpd8x8x1ud']
+[2023-05-28 02:20:30,252] {standard_task_runner.py:77} INFO - Job 3: Subtask wget
+[2023-05-28 02:20:30,252] {standard_task_runner.py:77} INFO - Job 4: Subtask wget
+[2023-05-28 02:20:30,345] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget scheduled__2023-04-02T06:00:00+00:00 [running]> on host 93f0b625ebd3
+[2023-05-28 02:20:30,349] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget manual__2023-05-28T02:20:26.667408+00:00 [running]> on host 93f0b625ebd3
+[2023-05-28 02:20:30,468] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-28T02:20:26.667408+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-28T02:20:26.667408+00:00
+[2023-05-28 02:20:30,469] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-02T06:00:00+00:00
+[2023-05-28 02:20:30,472] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-28 02:20:30,473] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-28 02:20:30,474] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-28 02:20:30,474] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-28 02:20:30,492] {subprocess.py:85} INFO - Output:
+[2023-05-28 02:20:30,492] {subprocess.py:85} INFO - Output:
+[2023-05-28 02:20:35,376] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-28 02:20:35,441] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230402T060000, start_date=20230528T022030, end_date=20230528T022035
+[2023-05-28 02:20:35,515] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-28 02:20:35,592] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-28 02:20:36,030] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-28 02:20:36,083] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230528T022026, start_date=20230528T022030, end_date=20230528T022036
+[2023-05-28 02:20:36,165] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-28 02:20:36,249] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-05-28 02:31:15,125] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-28T02:31:11.956732+00:00 [queued]>
+[2023-05-28 02:31:15,168] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: LocalIngestionDag.wget manual__2023-05-28T02:31:11.956732+00:00 [queued]>
+[2023-05-28 02:31:15,169] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-28 02:31:15,170] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2023-05-28 02:31:15,171] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-28 02:31:15,207] {taskinstance.py:1262} INFO - Executing <Task(BashOperator): wget> on 2023-05-28 02:31:11.956732+00:00
+[2023-05-28 02:31:15,221] {standard_task_runner.py:52} INFO - Started process 761 to run task
+[2023-05-28 02:31:15,231] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'LocalIngestionDag', 'wget', 'manual__2023-05-28T02:31:11.956732+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpupseggnl', '--error-file', '/tmp/tmp0_yfrmds']
+[2023-05-28 02:31:15,233] {standard_task_runner.py:77} INFO - Job 7: Subtask wget
+[2023-05-28 02:31:15,326] {logging_mixin.py:109} INFO - Running <TaskInstance: LocalIngestionDag.wget manual__2023-05-28T02:31:11.956732+00:00 [running]> on host 7e0176ac7dca
+[2023-05-28 02:31:15,441] {taskinstance.py:1412} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=LocalIngestionDag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-28T02:31:11.956732+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-28T02:31:11.956732+00:00
+[2023-05-28 02:31:15,445] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-28 02:31:15,446] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSL https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz > /opt/airflow/output_yellow_tripdata_2021-01.csv.gz']
+[2023-05-28 02:31:15,465] {subprocess.py:85} INFO - Output:
+[2023-05-28 02:31:23,742] {subprocess.py:93} INFO - Command exited with return code 0
+[2023-05-28 02:31:23,827] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=wget, execution_date=20230528T023111, start_date=20230528T023115, end_date=20230528T023123
+[2023-05-28 02:31:23,913] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-05-28 02:31:23,988] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
